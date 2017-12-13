@@ -7,7 +7,7 @@ class Header extends Component {
     return (     
         <div className='Box-Header shadow box-bg'>
           <div className='Header4'>a</div>
-          <div className='Header1'>b</div>
+          <div className='Header1'><Icon size='2x' className='logo' name="twitter"/></div>
           <div className='Header4'>c</div>        
         </div>      
     );
