@@ -9,6 +9,9 @@
 
 .left-head{
     flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 .center-head{
     flex: 1;
@@ -19,4 +22,17 @@
 }
 .right-head{
     flex: 4;
+}
+
+.head-first-icon {
+    padding: 0 10px 0 0;
+    border-right: 1px solid black;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+.head-second-icon {
+    height: 100%;
+    align-items: center;
+    display: flex;
 }

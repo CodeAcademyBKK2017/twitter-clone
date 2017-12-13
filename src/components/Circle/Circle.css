@@ -1,0 +1,16 @@
+.circle {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.background-sky{
+    border: 1px solid #80A8CC;
+    color: white;
+    background-color: #80A8CC;
+}
