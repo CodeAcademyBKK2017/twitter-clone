@@ -6,7 +6,9 @@ class App extends Component {
   render () {
     return (
       <div className="BodyTwit">
-        <div className="headerTwit" />
+        <div className="headerTwit" >
+          <div className="ConLogo"><Icon name='twitter' className="Logo"/></div>
+        </div>
         <div className="container" >
           <div className="BoxContain" >
             <div className="menubar" />
