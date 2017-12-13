@@ -26,7 +26,7 @@ class Header extends Component {
           </div>
         </div>
         <div className="center-head">
-          <Circle>
+          <Circle circle="">
             <Icon name="twitter" size="2x"/>
           </Circle>
         </div>
