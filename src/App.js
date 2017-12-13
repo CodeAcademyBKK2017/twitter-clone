@@ -1,15 +1,14 @@
 import './App.css';
+
 import React, {Component} from 'react';
-import {Icon} from 'react-fa';
+import Header from './components/header/header.component';
 
 class App extends Component {
 
   render () {
     return (
       <div>
-        <div className="header panel">
-          <Icon name="twitter" />
-        </div>
+        <Header />
         <div className="container">
           <div className="menu panel" />
           <div className="content panel" />
