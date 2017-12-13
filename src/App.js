@@ -1,14 +1,13 @@
 import './App.css';
 import React, {Component} from 'react';
 import {Icon} from 'react-fa';
+import Header from './component/headers/header.component'
 
 class App extends Component {
   render () {
     return (
       <div className="BodyTwit">
-        <div className="headerTwit shadowStyle" >
-          <div className="ConLogo"><Icon name='twitter' className="Logo"/></div>
-        </div>
+        <Header />
         <div className="container" >
           <div className="BoxContain" >
             <div className="menubar shadowStyle" />
