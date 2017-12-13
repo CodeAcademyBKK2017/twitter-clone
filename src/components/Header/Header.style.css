@@ -25,6 +25,9 @@
 }
 .header--right {
     flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .circle-container {
     height: 100%;
@@ -35,6 +38,9 @@
 .circle-container__first {
     width: 55px;
     margin-right: 5px;
+}
+.circle-container__user {
+    width: 55px;
 }
 .circle-container__border-right {
     border-right: 1px solid #f8f4ee;

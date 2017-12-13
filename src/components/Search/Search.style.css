@@ -1,0 +1,14 @@
+.search-form {
+    display: inline-flex;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.search-form__input {
+    border: none;
+    color: darkgray;
+}
+.search-form__icon {
+    border: none;
+    color: lightgray;
+}

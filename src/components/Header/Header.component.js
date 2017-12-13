@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import './Header.style.css';
 import {Icon} from 'react-fa';
 import Circle from '../Circle/Circle.component';
+import Search from '../Search/Search.component';
 
 class Header extends Component {
   render () {
@@ -23,7 +24,12 @@ class Header extends Component {
           </div>
         </div>
         <div className='header--logo'><Icon name="twitter" size="2x" /></div>
-        <div className='header--right'>right</div>
+        <div className='header--right'>
+          <Search />
+          <div className="circle-container circle-container__user">
+            <Circle iconName="user-o" />
+          </div>
+        </div>
       </div>
     );
   }
