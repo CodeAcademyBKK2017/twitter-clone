@@ -19,7 +19,7 @@
         "no-extra-bind": 2,
         "keyword-spacing": 2,
         "key-spacing": 2,
-        "indent": ["error", 2],
+        "indent": ["error", "tab"],
         "func-call-spacing": 2,
         "array-bracket-spacing": 2,
         "block-spacing": 2,
@@ -46,5 +46,5 @@
         "expect" :true,
         "test":true
     },
-    "plugins": ["react"],"extends": ["eslint:all", "plugin:react/recommended"]
+    "plugins": ["react"],"extends": ["eslint:recommended", "plugin:react/recommended"]
 }
