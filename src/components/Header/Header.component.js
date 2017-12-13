@@ -22,12 +22,12 @@ class Header extends Component {
 				</div>
 
 				<div className="logo-content">
-					<Icon name="twitter"/>
+					<Icon className="twitter-logo" name="twitter" size="2x"/>
 				</div>
 
-				<div className="left-content">
+				<div className="right-content">
 					<input className="search-box" type="text"/>
-					<button className=""/>
+					<button className="circle border" />
 				</div>
 			</div>
 		);
