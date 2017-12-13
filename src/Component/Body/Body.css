@@ -1,0 +1,28 @@
+.Box {
+    display:flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+  } 
+  
+  .Box-Body {
+    background-color: lightgray;
+    width: 50vw;
+  } 
+  
+  .shadow {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
+  }
+  
+  .box-bg {
+    background-color: white;
+  }
+  
+  .Box-Title {
+    height: 50px;
+  }
+  
+  .Box-Detail {
+    height: 1000px;  
+    margin-top: 20px;
+  }

@@ -1,4 +1,6 @@
 import './App.css';
+import Header from './Component/Header/Header';
+import Body from './Component/Body/Body';
 import React, {Component} from 'react';
 import {Icon} from 'react-fa';
 
@@ -7,14 +9,9 @@ class App extends Component {
     return (
       <div className='App'>
 
-        <div className='Box-Header shadow'>xx</div>
-      
-        <div className='Box'>
-        <div className='Box-Body'>
-          <div className='Box-Title shadow'>xx</div>
-          <div className='Box-Detail shadow'>xx</div>
-       </div>       
-      </div>  
+       <Header/>
+       <Body/>
+        
       </div>  
     );
   }

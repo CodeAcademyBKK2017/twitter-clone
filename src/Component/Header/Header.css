@@ -1,0 +1,24 @@
+  .Box-Header {  
+    display: flex;  
+    height: 50px;
+    position: fixed;
+    top:0;
+    width:100%;
+  } 
+  
+  .Header4 {
+    flex-grow: 4;
+  } 
+  
+  .Header1 {
+    flex-grow: 1;
+  }
+  
+  .shadow {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
+  }
+  
+  .box-bg {
+    background-color: white;
+  }
+  
