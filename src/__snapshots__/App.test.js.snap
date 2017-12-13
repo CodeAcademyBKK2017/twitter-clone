@@ -44,13 +44,21 @@ exports[`App component App: renders correctly 1`] = `
       <div
         className="right-content"
       >
-        <input
-          className="search-box"
-          type="text"
-        />
         <div
-          className="circle "
-        />
+          className="search-bar"
+        >
+          <input
+            className="search-box"
+            type="text"
+          />
+        </div>
+        <div
+          className="brand-container"
+        >
+          <div
+            className="circle "
+          />
+        </div>
       </div>
     </div>
     <div

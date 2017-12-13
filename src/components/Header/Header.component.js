@@ -1,6 +1,7 @@
 import './Header.style.css';
 import React, {Component} from 'react';
 import Circle from '../Circle/Circle.component';
+import SearchBar from '../SearchBar/SearchBar.component';
 import {Icon} from 'react-fa';
 
 class Header extends Component {
@@ -15,10 +16,10 @@ class Header extends Component {
 					<div className="line-spliter"/>
 
 					<div className="button-container">
-						<Circle iconName="bell-o" />
-						<Circle iconName="envelope-o" />
-						<Circle iconName="hashtag" />
-						<Circle />
+						<Circle iconName="bell-o"/>
+						<Circle iconName="envelope-o"/>
+						<Circle iconName="hashtag"/>
+						<Circle/>
 					</div>
 				</div>
 
@@ -27,8 +28,11 @@ class Header extends Component {
 				</div>
 
 				<div className="right-content">
-					<input className="search-box" type="text"/>
-					<Circle />
+					<SearchBar/>
+
+					<div className="brand-container">
+						<Circle/>
+					</div>
 				</div>
 			</div>
 		);
