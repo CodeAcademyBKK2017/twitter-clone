@@ -6,8 +6,8 @@ class App extends Component {
   render () {
     return (
       <div >
-        <div className="header"/>
-        <div className="box-main">
+        <div className="header box-shadow"/>
+        <div className="box-main box-shadow">
           <div className="second-container"/>
           <div className="content"/>
         </div>

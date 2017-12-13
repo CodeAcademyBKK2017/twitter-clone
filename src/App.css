@@ -33,12 +33,13 @@
     right: 0;
     height: 50px;
     top: 0;
-    box-shadow: 0px 2px #888888;
     background-color: yellow;
 }
 
-.box-main {
+.box-shadow {
     box-shadow: 0px 2px #888888;
+}
+.box-main {
     width: 50vw;
     margin: auto;
     /* top, right bottom left: clockwise */

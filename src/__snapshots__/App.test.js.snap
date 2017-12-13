@@ -2,6 +2,18 @@
 
 exports[`App component App: renders correctly 1`] = `
 <div>
-  hello world 
+  <div
+    className="header"
+  />
+  <div
+    className="box-main"
+  >
+    <div
+      className="second-container"
+    />
+    <div
+      className="content"
+    />
+  </div>
 </div>
 `;
