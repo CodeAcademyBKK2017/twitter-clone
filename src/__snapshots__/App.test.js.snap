@@ -7,7 +7,38 @@ exports[`App component App: renders correctly 1`] = `
   >
     <div
       className="box twitter-header"
-    />
+    >
+      <div
+        className="left-content"
+      >
+        <button
+          className="circle border twitter"
+        />
+        <button
+          className="circle border"
+        />
+        <button
+          className="circle border"
+        />
+        <button
+          className="circle border"
+        />
+      </div>
+      <div
+        className="logo-content"
+      />
+      <div
+        className="left-content"
+      >
+        <input
+          className="search-box"
+          type="text"
+        />
+        <button
+          className=""
+        />
+      </div>
+    </div>
     <div
       className="main"
     >
