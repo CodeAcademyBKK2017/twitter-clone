@@ -1,7 +1,7 @@
 .circle {
     width: 35px;
     height: 35px;
-
+    color: #605e58;
     display: flex;
     justify-content: center;
     align-items: center;

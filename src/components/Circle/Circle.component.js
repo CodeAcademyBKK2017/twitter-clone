@@ -6,11 +6,12 @@ import PropTypes from 'prop-types';
 class Circle extends Component {
 
   render () {
-    const {iconName, opaque} = this.props;
-    
+    const {iconName, opaque, children} = this.props;
+    const element = children || <Icon name={iconName} />;
+
     return (
       <div className={`circle ${opaque ? 'circle-opaque' : ''}`}>
-        <Icon name={iconName} />
+        {element}
       </div>
     );
   }
