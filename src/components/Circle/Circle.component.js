@@ -13,5 +13,5 @@ export default Circle;
 Circle.propTypes = {
   children: PropTypes.node.isRequired,
   color: PropTypes.string,
-  margin: PropTypes.margin
+  margin: PropTypes.string
 };
