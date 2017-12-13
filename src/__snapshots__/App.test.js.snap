@@ -1,7 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App component App: renders correctly 1`] = `
-<div>
-  hello world 
+<div
+  className="BodyTwit"
+>
+  <div
+    className="headerTwit shadowStyle"
+  >
+    <div
+      className="ConLogo"
+    />
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="BoxContain"
+    >
+      <div
+        className="menubar shadowStyle"
+      />
+      <div
+        className="TwitterBody shadowStyle"
+      />
+    </div>
+  </div>
 </div>
 `;

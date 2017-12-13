@@ -6,13 +6,13 @@ class App extends Component {
   render () {
     return (
       <div className="BodyTwit">
-        <div className="headerTwit" >
+        <div className="headerTwit shadowStyle" >
           <div className="ConLogo"><Icon name='twitter' className="Logo"/></div>
         </div>
         <div className="container" >
           <div className="BoxContain" >
-            <div className="menubar" />
-            <div className="TwitterBody" /> 
+            <div className="menubar shadowStyle" />
+            <div className="TwitterBody shadowStyle" /> 
           </div>
         </div>
       </div>
