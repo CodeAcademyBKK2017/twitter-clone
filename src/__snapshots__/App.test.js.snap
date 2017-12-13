@@ -28,14 +28,14 @@ exports[`App component App: renders correctly 1`] = `
         className="logo-content"
       />
       <div
-        className="left-content"
+        className="right-content"
       >
         <input
           className="search-box"
           type="text"
         />
         <button
-          className=""
+          className="circle border"
         />
       </div>
     </div>
