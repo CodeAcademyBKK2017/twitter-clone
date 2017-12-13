@@ -26,3 +26,32 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 50px;
+    top: 0;
+    box-shadow: 0px 2px #888888;
+    background-color: yellow;
+}
+
+.box-main {
+    box-shadow: 0px 2px #888888;
+    width: 50vw;
+    margin: auto;
+    /* top, right bottom left: clockwise */
+    padding: 70px 0 20px 0;
+}
+
+.second-container {
+    height: 50px;
+    border: 2px solid #ccc;
+}
+
+.content {
+    height: 1000px;
+    margin-top: 20px;
+    border: 2px solid #ccc;
+}
