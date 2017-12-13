@@ -10,14 +10,16 @@
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
     display: flex;
   }
-  
   .header--left {
     flex: 4;
   }
   .header--logo {
     flex: 1;
     height: 100%;
-    background-color: red;
+    color: #80A8CC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .header--right {
     flex: 4;
