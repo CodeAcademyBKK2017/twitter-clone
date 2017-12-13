@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <div className='Header Shadow'>
         <div className='Flex-glow4'/>
-        <div className='Flex-glow1'><Icon name='twitter'/></div>
+        <div className='Flex-glow1'><Icon className='Icon-Logo' size='2x' name='twitter'/></div>
         <div className='Flex-glow4'/>
       </div>
     );
