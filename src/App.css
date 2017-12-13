@@ -22,6 +22,43 @@
   font-size: large;
 }
 
+.BodyTwit {
+  width: 100%;
+  height: 100%;
+  flex-flow: column;
+}
+
+.headerTwit {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  box-shadow: 2px 2px 5px darkgrey;
+}
+
+.container{
+  background-color: lightgrey;
+  padding: 8% 15% 8% 15%;
+}
+
+.BoxContain{
+  background-color: lightgrey;
+}
+
+.menubar{
+  position: relative;
+  background-color: white;
+  height: 50px;
+  box-shadow: 2px 2px 5px darkgrey;
+}
+
+.TwitterBody{
+  background-color: white;
+  height: 1000px;
+  margin-top: 3%;
+  box-shadow: 2px 2px 5px darkgrey;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

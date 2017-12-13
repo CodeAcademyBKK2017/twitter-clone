@@ -5,8 +5,14 @@ import {Icon} from 'react-fa';
 class App extends Component {
   render () {
     return (
-      <div >
-        hello world <Icon name='rocket'></Icon>
+      <div className="BodyTwit">
+        <div className="headerTwit" />
+        <div className="container" >
+          <div className="BoxContain" >
+            <div className="menubar" />
+            <div className="TwitterBody" /> 
+          </div>
+        </div>
       </div>
     );
   }
