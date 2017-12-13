@@ -11,17 +11,20 @@ exports[`App component App: renders correctly 1`] = `
       <div
         className="left-content"
       >
-        <button
-          className="circle border twitter"
+        <div
+          className="circle main"
         />
-        <button
-          className="circle border"
+        <div
+          className="circle "
         />
-        <button
-          className="circle border"
+        <div
+          className="circle "
         />
-        <button
-          className="circle border"
+        <div
+          className="circle "
+        />
+        <div
+          className="circle "
         />
       </div>
       <div
@@ -34,8 +37,8 @@ exports[`App component App: renders correctly 1`] = `
           className="search-box"
           type="text"
         />
-        <button
-          className="circle border"
+        <div
+          className="circle "
         />
       </div>
     </div>
