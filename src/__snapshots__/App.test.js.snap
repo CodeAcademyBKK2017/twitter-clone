@@ -12,20 +12,31 @@ exports[`App component App: renders correctly 1`] = `
         className="left-content"
       >
         <div
-          className="circle main"
+          className="brand-container"
+        >
+          <div
+            className="circle brand"
+          />
+        </div>
+        <div
+          className="line-spliter"
         />
         <div
-          className="circle "
-        />
-        <div
-          className="circle "
-        />
-        <div
-          className="circle "
-        />
-        <div
-          className="circle "
-        />
+          className="button-container"
+        >
+          <div
+            className="circle "
+          />
+          <div
+            className="circle "
+          />
+          <div
+            className="circle "
+          />
+          <div
+            className="circle "
+          />
+        </div>
       </div>
       <div
         className="logo-content"

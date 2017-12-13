@@ -8,19 +8,18 @@ class Header extends Component {
 		return (
 			<div className="box twitter-header">
 				<div className="left-content">
-					<Circle isMain={true}>
-						<Icon name="twitter"/>
-					</Circle>
-					<Circle>
-						<Icon name="bell-o"/>
-					</Circle>
-					<Circle>
-						<Icon name="envelope-o"/>
-					</Circle>
-					<Circle>
-						<Icon name="hashtag"/>
-					</Circle>
-					<Circle />
+					<div className="brand-container">
+						<Circle isBrand={true} iconName="twitter"/>
+					</div>
+					
+					<div className="line-spliter"/>
+
+					<div className="button-container">
+						<Circle iconName="bell-o" />
+						<Circle iconName="envelope-o" />
+						<Circle iconName="hashtag" />
+						<Circle />
+					</div>
 				</div>
 
 				<div className="logo-content">
