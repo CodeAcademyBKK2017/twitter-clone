@@ -1,3 +1,43 @@
+.app {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.app-header{
+position: fixed;
+height: 50px;
+left:0;
+right:0;
+box-shadow: 5px 10px #888888;
+}
+.app-body{
+  padding-top: 70px;
+  padding-bottom: 20px;
+  width: 50vw;
+}
+.app-header2{
+  height: 50px;
+  background-color:hsl(123, 100%, 50%); 
+}
+.app-body2{
+  align-self: center;
+  background-color:hsl(123, 100%, 50%);
+  margin-top: 20px; 
+  height: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }
