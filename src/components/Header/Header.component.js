@@ -1,5 +1,6 @@
 import './Header.style.css';
 import React, {Component} from 'react';
+import Circle from '../Circle/Circle.component';
 import {Icon} from 'react-fa';
 
 class Header extends Component {
@@ -7,18 +8,19 @@ class Header extends Component {
 		return (
 			<div className="box twitter-header">
 				<div className="left-content">
-					<button className="circle border twitter">
+					<Circle isMain={true}>
 						<Icon name="twitter"/>
-					</button>
-					<button className="circle border">
+					</Circle>
+					<Circle>
 						<Icon name="bell-o"/>
-					</button>
-					<button className="circle border">
+					</Circle>
+					<Circle>
 						<Icon name="envelope-o"/>
-					</button>
-					<button className="circle border">
+					</Circle>
+					<Circle>
 						<Icon name="hashtag"/>
-					</button>
+					</Circle>
+					<Circle />
 				</div>
 
 				<div className="logo-content">
@@ -27,7 +29,7 @@ class Header extends Component {
 
 				<div className="right-content">
 					<input className="search-box" type="text"/>
-					<button className="circle border" />
+					<Circle />
 				</div>
 			</div>
 		);
