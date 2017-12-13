@@ -1,5 +1,6 @@
 import './Header.css';
 import Circle from '../Circle/Circle'
+import InputBorder from '../InputBorder/InputBorder'
 import React, {Component} from 'react';
 import {Icon} from 'react-fa';
 
@@ -17,7 +18,9 @@ class Header extends Component {
         </div>
           
           <div className='HeaderLogo'><Icon size='2x' className='logo' name="twitter"/></div>
-          <div className='HeaderLeftRight'>c</div>        
+          <div className='HeaderRight'>
+          <InputBorder />
+          </div>        
         </div>      
     );
   }
