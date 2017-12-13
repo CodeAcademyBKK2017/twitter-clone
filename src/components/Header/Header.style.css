@@ -1,0 +1,21 @@
+.app-header{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    left:0;
+    right:0;
+}
+.left-content{
+      flex:4
+}
+.right-content{
+      flex:4
+}
+.logo{
+    display: flex;
+    color:#80A8CC;
+    justify-content: center;
+    align-items: center;
+    flex:1;  
+}

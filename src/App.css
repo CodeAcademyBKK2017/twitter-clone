@@ -5,23 +5,7 @@
   flex-direction: column;
   background-color: #e6ecf0;
 }
-.app-header{
-position: fixed;
-display: flex;
-justify-content: space-around;
-height: 50px;
-left:0;
-right:0;
-}
-.left-content{
-  flex:4
-}
-.right-content{
-  flex:4
-}
-.logo{
-  flex:1
-}
+
 .app-body{
   padding-top: 70px;
   padding-bottom: 20px;
@@ -37,7 +21,6 @@ right:0;
 }
 .shadow{
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
-  box-shadow:0 1px 3px 0 rgba(0,0,0,0.25);
 }
 .white-box{
   background-color: white;
