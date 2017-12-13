@@ -9,10 +9,35 @@ exports[`App component App: renders correctly 1`] = `
   >
     <div
       className="left-head"
-    />
+    >
+      <div
+        className="head-first-icon"
+      >
+        <div
+          className="circle background-sky"
+        />
+      </div>
+      <div
+        className="head-second-icon"
+      >
+        <div
+          className="circle"
+        />
+        <div
+          className="circle"
+        />
+        <div
+          className="circle"
+        />
+      </div>
+    </div>
     <div
       className="center-head"
-    />
+    >
+      <div
+        className={undefined}
+      />
+    </div>
     <div
       className="right-head"
     />
