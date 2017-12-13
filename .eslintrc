@@ -55,4 +55,8 @@
         "document": true
     },
     "plugins": ["react"],"extends": ["eslint:recommended", "plugin:react/recommended"]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5555c2c2709e61d305f2f2ce5fe49ce66a685063
