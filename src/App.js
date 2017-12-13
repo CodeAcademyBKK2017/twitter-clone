@@ -1,15 +1,13 @@
 import './App.css';
 import React, {Component} from 'react';
-// import {Icon} from 'react-fa';
+import Header from './Component/Header/Header.component';
 
 class App extends Component {
   render () {
     return (
       <div className='App'>
 
-        <div className='App-header Shadow'>
-          <div className='Flex-glow4'/><div className='Flex-glow1'/><div className='Flex-glow4'/>
-        </div>
+        <Header />
       
         <div className='Box'>
           <div className='Box-title Shadow'/>
