@@ -6,7 +6,7 @@ class App extends Component {
   render () {
     return (
       <div >
-        hello world <Icon name='rocket'></Icon>
+        hello world <Icon name='rocket' />
       </div>
     );
   }
