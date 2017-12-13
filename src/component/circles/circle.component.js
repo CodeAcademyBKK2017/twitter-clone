@@ -5,8 +5,10 @@ import ProptTypes from 'prop-types';
 class circle extends Component {
   render () {
     return (
-      <div className='cirBTN isFlex Center'>
-        {this.props.children}
+      <div className='sperateBTN isFlex Center'>
+        <div className='cirBTN isFlex Center'>
+          {this.props.children}
+        </div>
       </div>
     );
   }

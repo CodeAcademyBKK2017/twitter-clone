@@ -3,9 +3,18 @@
     height: 35px;
     border-radius: 100%;
     border: 1px solid lightgray;
-    margin-left: 5px;
+    cursor: pointer;
 }
 
+.sperateBTN.isFlex.Center{
+    height:60px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div.sperateBTN.isFlex.Center:hover{
+    border-bottom: 3px solid rgb(29, 161, 242);
+}
 .userIcon{
     width: 30px;
 }
