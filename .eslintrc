@@ -1,5 +1,12 @@
 {
     "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "modules": true
+      }
+    },
     "rules": {
         "semi": "error",
         "no-spaced-func" :"error",
@@ -44,7 +51,8 @@
         "it" : true,
         "describe" : true,
         "expect" :true,
-        "test":true
+        "test": true,
+        "document": true
     },
-    "plugins": ["react"],"extends": ["eslint:all", "plugin:react/recommended"]
+    "plugins": ["react"],"extends": ["eslint:recommended", "plugin:react/recommended"]
 }
