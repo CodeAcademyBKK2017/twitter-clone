@@ -1,0 +1,19 @@
+.input {
+    border: none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.search{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 2px solid rgba(0,0,0,0.08); 
+    height: 35px;
+    border-radius: 50px;
+}
+.search-icon{
+    color: rgba(0,0,0,0.08); 
+}

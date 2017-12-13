@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search group Test Search: snapshot test 1`] = `
+<div
+  className="search"
+>
+  <input
+    className="input"
+  />
+  <div
+    className="search-icon"
+  />
+</div>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Circle group Test Circle: snapshot test 1`] = `
+<div
+  className="circle undefined undefined"
+>
+   
+   
+   
+   
+</div>
+`;

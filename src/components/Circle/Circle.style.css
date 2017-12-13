@@ -11,6 +11,10 @@
     color: white;
     background-color: #1da1f2;
 }
-.margin{
+.margin-l{
     margin-left: 10px;
+}
+.margin-rl{
+    margin-left: 10px;
+    margin-right: 10px;
 }

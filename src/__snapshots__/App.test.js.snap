@@ -22,19 +22,19 @@ exports[`App component App: renders correctly 1`] = `
       className="left-content"
     >
       <div
-        className="circle  margin"
+        className="circle  margin-l"
       >
          
          
       </div>
       <div
-        className="circle  margin"
+        className="circle  margin-l"
       >
          
          
       </div>
       <div
-        className="circle  margin"
+        className="circle  margin-l"
       >
          
          
@@ -49,10 +49,22 @@ exports[`App component App: renders correctly 1`] = `
       className="right-content"
     >
       <div
-        className="circle undefined undefined"
+        className="search"
+      >
+        <input
+          className="input"
+        />
+        <div
+          className="search-icon"
+        />
+      </div>
+      <div
+        className="circle undefined margin-rl"
       >
          
-        <image />
+        <img
+          src="http://icons.iconarchive.com/icons/designbolts/despicable-me-2/32/Minion-Amazed-icon.png"
+        />
          
       </div>
     </div>

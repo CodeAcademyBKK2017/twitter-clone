@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header group Test Header: snapshot test 1`] = `
+<div
+  className="app-header shadow white-box"
+>
+  <div
+    className="before-left"
+  >
+     
+    <div
+      className="circle twitter undefined"
+    >
+       
+       
+    </div>
+  </div>
+  <div
+    className="left-content"
+  >
+    <div
+      className="circle  margin-l"
+    >
+       
+       
+    </div>
+    <div
+      className="circle  margin-l"
+    >
+       
+       
+    </div>
+    <div
+      className="circle  margin-l"
+    >
+       
+       
+    </div>
+  </div>
+  <div
+    className="logo"
+  >
+     
+  </div>
+  <div
+    className="right-content"
+  >
+    <div
+      className="search"
+    >
+      <input
+        className="input"
+      />
+      <div
+        className="search-icon"
+      />
+    </div>
+    <div
+      className="circle undefined margin-rl"
+    >
+       
+      <img
+        src="http://icons.iconarchive.com/icons/designbolts/despicable-me-2/32/Minion-Amazed-icon.png"
+      />
+       
+    </div>
+  </div>
+</div>
+`;
