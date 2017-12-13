@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-color: rgb(240, 240, 240);
 }
 
 .App-logo {
@@ -8,10 +9,13 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .App-title {
@@ -20,6 +24,24 @@
 
 .App-intro {
   font-size: large;
+}
+
+.Box{
+  justify-content: center;
+  padding: 70px 20% 20px;
+}
+
+.Box-title{
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Box-content{
+  height: 1000px;
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @keyframes App-logo-spin {
