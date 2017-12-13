@@ -1,0 +1,30 @@
+.Circle{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Circle-Color-Blue{
+    background-color: #80A8CC;
+}
+
+.Circle-Color{
+    border: 2px solid rgb(220, 220, 220);
+}
+
+.Box-Circle{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icon-Color-White {
+    color: rgb(255, 255, 255);
+}
+
+

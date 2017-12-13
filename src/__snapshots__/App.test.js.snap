@@ -8,14 +8,62 @@ exports[`App component App: renders correctly 1`] = `
     className="Header Shadow"
   >
     <div
-      className="Flex-glow4"
+      className="Flex4 Content-Left"
+    >
+      <div
+        className="Box-Circle"
+      >
+        <div
+          className="Circle Circle-Color-Blue"
+        />
+      </div>
+      <div
+        className="Divide"
+      />
+      <div
+        className="Box-Circle"
+      >
+        <div
+          className="Circle Circle-Color"
+        />
+      </div>
+      <div
+        className="Box-Circle"
+      >
+        <div
+          className="Circle Circle-Color"
+        />
+      </div>
+      <div
+        className="Box-Circle"
+      >
+        <div
+          className="Circle Circle-Color"
+        />
+      </div>
+    </div>
+    <div
+      className="Flex1"
     />
     <div
-      className="Flex-glow1"
-    />
-    <div
-      className="Flex-glow4"
-    />
+      className="Flex4 Content-Right"
+    >
+      <div
+        className="Border"
+      >
+        <input
+          className="Input"
+          placeholder="Search"
+        />
+      </div>
+      <div
+        className="Box-Circle"
+      >
+        <div
+          className="Circle Circle-Color"
+        />
+      </div>
+    </div>
   </div>
   <div
     className="Box"

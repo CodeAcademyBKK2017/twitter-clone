@@ -27,7 +27,7 @@
 
 .Box{
   justify-content: center;
-  padding: 70px 20% 20px;
+  padding: 80px 20% 20px;
 }
 
 .Shadow{
@@ -36,7 +36,7 @@
 }
 
 .Box-title.Shadow{
-  height: 50px;
+  height: 60px;
   background-color: rgb(255, 255, 255);
 }
 

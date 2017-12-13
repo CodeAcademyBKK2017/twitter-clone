@@ -1,6 +1,6 @@
 .Header.Shadow{
     background-color: rgb(255, 255, 255);
-    height: 50px;
+    height: 60px;
     display: flex;
     position: fixed;
     top: 0;
@@ -16,15 +16,33 @@
     color: #80A8CC;
 }
 
-.Flex-glow1{
+.Flex1{
     display: flex;
-    flex-grow: 1;
-    /* background-color: rgb(29, 202, 255); */
+    flex: 1;
     justify-content: center;
     align-items: center;
   }
   
-  .Flex-glow4{
-    flex-grow: 4;
-    /* background-color: rgb(255, 70, 70); */
-  }
+.Flex4{
+    display: flex;
+    flex: 4;
+    align-items: center;
+}
+
+.Divide{
+    height: 60px;
+    width: 1px;
+    background-color: rgb(240, 240, 240);
+}
+
+.Content-Left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Content-Right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

@@ -1,0 +1,16 @@
+.Border{
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(240, 240, 240);
+    padding: 5px 10px 5px;
+}
+
+.Input{
+    border: 1px solid white;
+}
+
+.Color {
+    color: rgb(200, 200, 200);
+}
