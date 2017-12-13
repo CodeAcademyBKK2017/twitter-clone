@@ -1,0 +1,17 @@
+.circle {
+    width: 35px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    border: 1px solid #f4f0ea;
+    box-sizing: border-box;
+}
+.circle.circle-opaque {
+    color: #FFFFFF;
+    background: #80A8CC;
+    border: 1px solid #80A8CC;
+}

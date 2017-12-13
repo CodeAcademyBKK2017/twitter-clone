@@ -4,7 +4,17 @@ exports[`App component App: renders correctly 1`] = `
 <div>
   <div
     className="header panel"
-  />
+  >
+    <div
+      className="left-content"
+    />
+    <div
+      className="logo"
+    />
+    <div
+      className="right-content"
+    />
+  </div>
   <div
     className="container"
   >
