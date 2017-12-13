@@ -3,8 +3,8 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 describe('App component', () => {
-  it('App: renders correctly', () => {
-    const tree = renderer.create(<App />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+	it('App: renders correctly', () => {
+		const tree = renderer.create(<App />).toJSON();
+		expect(tree).toMatchSnapshot();
+	});
 });
