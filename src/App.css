@@ -27,17 +27,35 @@
   to { transform: rotate(360deg); }
 }
 
+.main-app {
+    background-color: #ccc;
+}
+
+.background-white{
+    background-color: white;
+}
+
 .header {
     position: fixed;
     left: 0;
     right: 0;
     height: 50px;
     top: 0;
-    background-color: yellow;
+    display: flex;
+}
+
+.left-head{
+    flex: 4;
+}
+.center-head{
+    flex: 1;
+}
+.right-head{
+    flex: 4;
 }
 
 .box-shadow {
-    box-shadow: 0px 2px #888888;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
 }
 .box-main {
     width: 50vw;
@@ -48,11 +66,9 @@
 
 .second-container {
     height: 50px;
-    border: 2px solid #ccc;
 }
 
 .content {
     height: 1000px;
     margin-top: 20px;
-    border: 2px solid #ccc;
 }

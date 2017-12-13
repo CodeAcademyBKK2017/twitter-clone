@@ -1,18 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App component App: renders correctly 1`] = `
-<div>
+<div
+  className="main-app"
+>
   <div
-    className="header"
-  />
+    className="header box-shadow background-white"
+  >
+    <div
+      className="left-head"
+    />
+    <div
+      className="center-head"
+    />
+    <div
+      className="right-head"
+    />
+  </div>
   <div
     className="box-main"
   >
     <div
-      className="second-container"
+      className="second-container box-shadow background-white"
     />
     <div
-      className="content"
+      className="content box-shadow background-white"
     />
   </div>
 </div>

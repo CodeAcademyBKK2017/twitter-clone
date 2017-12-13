@@ -5,11 +5,15 @@ import React, {Component} from 'react';
 class App extends Component {
   render () {
     return (
-      <div >
-        <div className="header box-shadow"/>
-        <div className="box-main box-shadow">
-          <div className="second-container"/>
-          <div className="content"/>
+      <div className="main-app">
+        <div className="header box-shadow background-white">
+          <div className="left-head"/>
+          <div className="center-head"/>
+          <div className="right-head"/>
+        </div>
+        <div className="box-main">
+          <div className="second-container box-shadow background-white"/>
+          <div className="content box-shadow background-white"/>
         </div>
       </div>
     );
