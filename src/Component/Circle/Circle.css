@@ -5,6 +5,11 @@
     border-radius: 50%;
     height: 35px;
     width: 35px;
-    color:#80A8CC;
-    border: 1px solid red
+    color: gray;
+    margin: 0px 10px;
+    border: 1px solid lightgray;
   } 
+  .Circle.circle-brand {
+    background-color: #80A8CC;
+    color: white;
+  }

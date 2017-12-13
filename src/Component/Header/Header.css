@@ -8,11 +8,21 @@
     align-items: center;
   } 
   
-  .Header4 {
-    flex-grow: 4;
+  .HeaderLeft {
+    flex: 4;
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+  } 
+
+  .BoxLogoBrand {
+    border-right: 1px solid lightgray;
+    height: 100%;
+    align-items: center;
+    display: inline-flex;
   } 
   
-  .Header1 {
+  .HeaderLogo {
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -24,3 +34,9 @@
     size : 2x;
   }
   
+  .logo-left {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
+}

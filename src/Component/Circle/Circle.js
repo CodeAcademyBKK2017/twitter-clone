@@ -4,10 +4,11 @@ import {Icon} from 'react-fa';
 
 class Circle extends Component {
   render () {
-      const {name} = this.props;
+      const {name, isBrand} = this.props;
+      const brandClass = isBrand ? 'circle-brand' : ''; // ternary operator
     return (     
-        <div className='Circle'>
-            <Icon name={name}/>
+        <div className={`Circle ${brandClass}`}>
+            <Icon name={name} />
         </div>       
     );
   }
