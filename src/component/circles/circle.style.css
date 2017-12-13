@@ -1,0 +1,11 @@
+.cirBTN.isFlex.Center{
+    width:35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid lightgray;
+    margin-left: 5px;
+}
+
+.userIcon{
+    width: 30px;
+}

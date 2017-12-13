@@ -1,7 +1,6 @@
 import './App.css';
 import React, {Component} from 'react';
-import {Icon} from 'react-fa';
-import Header from './component/headers/header.component'
+import Header from './component/headers/header.component';
 
 class App extends Component {
   render () {

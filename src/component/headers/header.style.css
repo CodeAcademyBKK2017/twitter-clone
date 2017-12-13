@@ -3,35 +3,40 @@
     font-size: 35px;
     
   }
-  .ConLogo{
+.isFlex{
+    display: flex;
+}
+.Center{
     justify-content: center;
     align-items: center;
+}
+  .ConLogo.Center.isFlex{
     flex: 1;
-    display: flex;
   }
-  .leftContain{
+  .leftContain.isFlex{
     flex: 4;
-    display: flex;
     justify-content: flex-start;
     align-items: center;
   }
-  .rightContain{
+  .rightContain.isFlex{
     flex: 4;
     justify-content:flex-end;
     align-items: center;
-    display: flex;
   }
-  .leftConLogo{
-    height: 50px;
+  .leftConLogo.isFlex{
+    height: 60px;
     width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-right: 1px solid gray;
+    border-right: 1px solid lightgrey;
+    flex:1;
   }
   .logoLeft{
-    border: 6px solid rgb(29, 161, 242);
+    border: 5px solid rgb(29, 161, 242);
     border-radius: 100%;
     color:white;
     background-color: rgb(29, 161, 242);
+  }
+  .btnGroup.isFlex{
+    justify-content:flex-start;
+    align-items: center;
+    flex:9;
   }
