@@ -1,0 +1,18 @@
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 50px;
+    top: 0;
+    display: flex;
+}
+
+.left-head{
+    flex: 4;
+}
+.center-head{
+    flex: 1;
+}
+.right-head{
+    flex: 4;
+}
