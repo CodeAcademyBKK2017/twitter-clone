@@ -7,11 +7,11 @@ class App extends Component {
     return (
       <div className='App'>
 
-        <div className='App-header' />
+        <div className='App-header Shadow' />
       
         <div className='Box'>
-          <div className='Box-title'/>
-          <div className='Box-content'/>
+          <div className='Box-title Shadow'/>
+          <div className='Box-content Shadow'/>
         </div>
               
       </div>

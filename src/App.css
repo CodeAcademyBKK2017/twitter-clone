@@ -8,10 +8,9 @@
   height: 80px;
 }
 
-.App-header {
+.App-header.Shadow{
   background-color: rgb(255, 255, 255);
   height: 50px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   position: fixed;
   top: 0;
@@ -31,17 +30,20 @@
   padding: 70px 20% 20px;
 }
 
-.Box-title{
-  height: 50px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.Shadow{
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
 }
 
-.Box-content{
+.Box-title.Shadow{
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+.Box-content.Shadow{
   height: 1000px;
   margin-top: 20px;
   background-color: rgb(255, 255, 255);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @keyframes App-logo-spin {
