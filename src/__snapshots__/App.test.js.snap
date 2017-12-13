@@ -3,26 +3,34 @@
 exports[`App component App: renders correctly 1`] = `
 <div>
   <div
-    className="App-header"
+    className="header"
   >
     <div
-      className="App-title"
+      className="header--left"
     >
-      App-header
+      left
+    </div>
+    <div
+      className="header--logo"
+    />
+    <div
+      className="header--right"
+    >
+      right
     </div>
   </div>
   <div
-    className="App-body"
+    className="body"
   >
     <div
-      className="Stat"
+      className="stat"
     >
-      Stat
+      stat
     </div>
     <div
-      className="Feed"
+      className="feed"
     >
-      Feed
+      feed
     </div>
   </div>
 </div>

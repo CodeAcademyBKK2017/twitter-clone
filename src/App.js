@@ -1,16 +1,15 @@
 import './App.css';
 import React, {Component} from 'react';
+import Header from './components/Header/Header.component';
 
 class App extends Component {
   render () {
     return (
       <div >
-        <div className='App-header'>
-          <div className='App-title'>App-header</div>
-        </div>
-        <div className='App-body'>
-          <div className='Stat'>Stat</div>
-          <div className='Feed'>Feed</div>
+        <Header />
+        <div className='body'>
+          <div className='stat'>stat</div>
+          <div className='feed'>feed</div>
         </div>
       </div>
     );
