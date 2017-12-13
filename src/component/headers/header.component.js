@@ -7,9 +7,9 @@ class Header extends Component {
     return (
       <div className="headerTwit shadowStyle" >
         <div className="leftContain">
-          <div className="leftConLogo"><Icon name='twitter'/></div>
+          <div className="leftConLogo"><Icon name='twitter' className='logoLeft' /></div>
         </div>
-        <div className="ConLogo"><Icon name='twitter' className="Logo"/></div>
+        <div className="ConLogo"><Icon name='twitter' className="Logo" size='2x'/></div>
         <div className="rightContain">
         RIGHT
         </div>

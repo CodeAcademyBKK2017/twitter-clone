@@ -8,8 +8,20 @@ exports[`App component App: renders correctly 1`] = `
     className="headerTwit shadowStyle"
   >
     <div
+      className="leftContain"
+    >
+      <div
+        className="leftConLogo"
+      />
+    </div>
+    <div
       className="ConLogo"
     />
+    <div
+      className="rightContain"
+    >
+      RIGHT
+    </div>
   </div>
   <div
     className="container"
