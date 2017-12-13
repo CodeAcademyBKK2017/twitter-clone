@@ -7,10 +7,12 @@
 	
 	padding: 10px;
 	height: 10px;
+	width: 20vw;
 }
 
 .search-box {
 	border: solid 0px;
+	width: stretch;
 }
 
 .search-icon {
