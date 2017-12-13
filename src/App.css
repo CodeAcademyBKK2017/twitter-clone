@@ -46,6 +46,16 @@
   background-color: rgb(255, 255, 255);
 }
 
+.Flex-glow1{
+  flex-grow: 1;
+  background-color: rgb(255, 92, 154);
+}
+
+.Flex-glow4{
+  flex-grow: 4;
+  background-color: rgb(255, 70, 70);
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

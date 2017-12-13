@@ -7,7 +7,9 @@ class App extends Component {
     return (
       <div className='App'>
 
-        <div className='App-header Shadow' />
+        <div className='App-header Shadow'>
+          <div className='Flex-glow4'/><div className='Flex-glow1'/><div className='Flex-glow4'/>
+        </div>
       
         <div className='Box'>
           <div className='Box-title Shadow'/>

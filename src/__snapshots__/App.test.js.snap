@@ -5,16 +5,26 @@ exports[`App component App: renders correctly 1`] = `
   className="App"
 >
   <div
-    className="App-header"
-  />
+    className="App-header Shadow"
+  >
+    <div
+      className="Flex-glow4"
+    />
+    <div
+      className="Flex-glow1"
+    />
+    <div
+      className="Flex-glow4"
+    />
+  </div>
   <div
     className="Box"
   >
     <div
-      className="Box-title"
+      className="Box-title Shadow"
     />
     <div
-      className="Box-content"
+      className="Box-content Shadow"
     />
   </div>
 </div>
