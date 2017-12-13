@@ -1,0 +1,10 @@
+.Circle {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    color:#80A8CC;
+    border: 1px solid red
+  } 
