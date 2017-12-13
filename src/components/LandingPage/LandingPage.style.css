@@ -1,19 +1,38 @@
-.cell {
-	/* color: white;
-	background-color: rgb(0, 195, 255);
-	width: 20vw;
-	height: 20vw;
-	text-transform: uppercase;
-
-	display: inline-block;
-	margin: 1px;
-	border-radius: 5px;
-	text-align: center;
-	line-height: 20vw;
-
-	vertical-align: top; */
+.container {
+	position: relative;
+	background: #dddddd;
 }
 
-.disable {
-	/* pointer-events: none; */
+.box {
+	background: white;
+	box-shadow: 0px 0px 5px grey;
+}
+
+.box.twitter-header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	height: 50px;
+}
+
+.box.menu {
+	height: 50px;
+}
+
+.box.content {
+	height: 1000px;
+	margin-top: 20px;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	
+	padding: 70px 0 20px 0;
+	/* padding-top: 20px;
+	padding-bottom: 20px; */
+}
+
+.center {
+	width: 50vw;
 }

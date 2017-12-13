@@ -7,7 +7,7 @@ class App extends Component {
 	render () {
 		return (
 			<div >
-
+				<LandingPage />
 				hello world <Icon name='rocket' />
 			</div>
 		);

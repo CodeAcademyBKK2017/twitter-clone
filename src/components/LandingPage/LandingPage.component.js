@@ -8,7 +8,16 @@ class LandingPage extends Component {
 		// const {title, type, onClick} = this.props;
 		
 		return (
-			<div />
+			<div className="container">
+				<div className="box twitter-header" />
+				
+				<div className="main">
+					<div className="center">
+						<div className="box menu" />
+						<div className="box content" />
+					</div>
+				</div>
+			</div>
 		);
 	}
 }
