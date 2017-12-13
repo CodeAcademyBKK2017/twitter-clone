@@ -12,6 +12,10 @@
 }
 .center-head{
     flex: 1;
+    color: #80A8CC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .right-head{
     flex: 4;
