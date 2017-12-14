@@ -7,6 +7,7 @@
 .search-form__input {
     border: none;
     color: darkgray;
+    width: 20vw;
 }
 .search-form__icon {
     border: none;
