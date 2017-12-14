@@ -5,19 +5,19 @@ exports[`Header group Test Header: snapshot test 1`] = `
   className="app-header shadow white-box"
 >
   <div
-    className="before-left"
-  >
-     
-    <div
-      className="circle twitter undefined"
-    >
-       
-       
-    </div>
-  </div>
-  <div
     className="left-content"
   >
+    <div
+      className="before-left"
+    >
+       
+      <div
+        className="circle twitter undefined"
+      >
+         
+         
+      </div>
+    </div>
     <div
       className="circle  margin-l"
     >

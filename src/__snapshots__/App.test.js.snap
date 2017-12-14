@@ -8,19 +8,19 @@ exports[`App component App: renders correctly 1`] = `
     className="app-header shadow white-box"
   >
     <div
-      className="before-left"
-    >
-       
-      <div
-        className="circle twitter undefined"
-      >
-         
-         
-      </div>
-    </div>
-    <div
       className="left-content"
     >
+      <div
+        className="before-left"
+      >
+         
+        <div
+          className="circle twitter undefined"
+        >
+           
+           
+        </div>
+      </div>
       <div
         className="circle  margin-l"
       >
