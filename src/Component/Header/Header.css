@@ -1,4 +1,4 @@
-.header.shadow{
+.header{
     background-color: rgb(255, 255, 255);
     height: 60px;
     display: flex;
@@ -8,13 +8,12 @@
 }
 
 .shadow{
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
 }
 
-.iconLogo {
+/* .iconLogo {
     color: #80A8CC;
-}
+} */
 
 .flex1{
     display: flex;
