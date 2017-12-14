@@ -1,0 +1,33 @@
+.subHeader{
+        background-color: white;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
+        display: flex;
+        align-content: flex-start;
+        width:100%;
+}
+.container{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;      
+    flex-direction: column;
+    background-color: white;
+    padding: 1vh;
+    flex :2;
+}
+.titile{
+    display:flex;
+color: #cbccce   
+}
+.value{
+    display:flex;
+    color: hsl(220, 3%, 20%)   
+}
+.initial{
+    border-bottom:  2px solid #1da1f2;
+}
+.buttomHover{
+ 
+}
+.buttomHover:hover{
+    border-bottom:  2px solid #cbccce   ;
+}
