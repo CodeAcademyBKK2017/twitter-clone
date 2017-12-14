@@ -27,25 +27,25 @@
   to { transform: rotate(360deg); }
 }
 
-.main-app {
+.main_app {
     background-color: #ccc;
 }
 
-.background-white{
+.background_white{
     background-color: white;
 }
 
-.box-shadow {
+.box_shadow {
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
 }
-.box-main {
+.box_main {
     width: 50vw;
     margin: auto;
     /* top, right bottom left: clockwise */
     padding: 80px 0 20px 0;
 }
 
-.second-container {
+.second_container {
     height: 50px;
 }
 

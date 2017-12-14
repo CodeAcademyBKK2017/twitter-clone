@@ -1,16 +1,17 @@
-import './App.css';
+import appStyle from './App.css';
 import React, {Component} from 'react';
 import Header from './components/Header/Header.component';
-// import {Icon} from 'react-fa';
+import classNames from 'classnames';
+// import {Icon} from 'react-fa'; 
 
 class App extends Component {
   render () {
     return (
-      <div className="main-app">
+      <div className={appStyle.main_app}>
         <Header/>
-        <div className="box-main">
-          <div className="second-container box-shadow background-white"/>
-          <div className="content box-shadow background-white"/>
+        <div className={appStyle.box_main}>
+          <div className={classNames(appStyle.second_container, appStyle.box_shadow, appStyle.background_white)}/>
+          <div className={classNames(appStyle.content, appStyle.box_shadow, appStyle.background_white)}/>
         </div>
       </div>
     );
