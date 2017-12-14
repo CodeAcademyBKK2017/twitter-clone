@@ -32,6 +32,11 @@ div.boxCircle:active{
     border-bottom: 1px solid #1e90ff;
 }
 
+div.circle:active{
+    background-color: #1e90ff;
+    border-color: #1e90ff;
+}
+
 .iconColorWhite {
     color: rgb(255, 255, 255);
 }
