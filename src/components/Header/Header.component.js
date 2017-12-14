@@ -5,6 +5,7 @@ import {Icon} from 'react-fa';
 import Circle from '../Circle/Circle.component';
 import classNames from 'classnames';
 
+
 class Header extends Component {
   render () {
     return (

@@ -1,4 +1,4 @@
-import './Circle.css';
+// import './Circle.css';
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
@@ -17,6 +17,7 @@ Circle.propTypes = {
   children: PropTypes.node.isRequired
 };
 Circle.defaultProps = {
+  circle: ''
 };
 
 export default Circle;

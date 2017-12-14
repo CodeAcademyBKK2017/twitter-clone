@@ -14,20 +14,20 @@ exports[`App component App: renders correctly 1`] = `
         className={undefined}
       >
         <div
-          className="circle background-sky"
+          className=""
         />
       </div>
       <div
         className={undefined}
       >
         <div
-          className="circle"
+          className=""
         />
         <div
-          className="circle"
+          className=""
         />
         <div
-          className="circle"
+          className=""
         />
       </div>
     </div>
@@ -52,7 +52,7 @@ exports[`App component App: renders correctly 1`] = `
         className={undefined}
       >
         <div
-          className="circle"
+          className=""
         />
       </div>
     </div>
