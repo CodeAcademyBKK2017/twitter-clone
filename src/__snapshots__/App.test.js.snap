@@ -7,13 +7,64 @@ exports[`App component App: renders correctly 1`] = `
   >
     <div
       className="left-content"
-    />
+    >
+      <div
+        className="brand"
+      >
+        <div
+          className="circle circle-opaque"
+        />
+      </div>
+      <ul
+        className="nav"
+      >
+        <li
+          className="active"
+        >
+          <div
+            className="circle "
+          />
+        </li>
+        <li>
+          <div
+            className="circle "
+          />
+        </li>
+        <li>
+          <div
+            className="circle "
+          />
+        </li>
+      </ul>
+    </div>
     <div
-      className="logo"
+      className="logo-container text-center"
     />
     <div
       className="right-content"
-    />
+    >
+      <div
+        className="search"
+      >
+        <input
+          name="search"
+          placeholder="Search"
+        />
+      </div>
+      <div
+        className="profile"
+      >
+        <div
+          className="circle "
+        >
+          <img
+            height="24"
+            src="http://icons.iconarchive.com/icons/designbolts/despicable-me-2/128/Minion-Dancing-icon.png"
+            width="24"
+          />
+        </div>
+      </div>
+    </div>
   </div>
   <div
     className="container"
