@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import circleStyle from './Circle.style.css';
-import {Icon} from 'react-fa';
+import Ionicon from 'react-ionicons';
 
 class Circle extends Component {
   render () {
@@ -10,7 +10,7 @@ class Circle extends Component {
     const styleType = (type, circleStyle) => type === 'brand' ? circleStyle.brand : circleStyle.normal;
     return (
       <div className={classNames(styleType(type, circleStyle))}>
-        <Icon name={iconName} />
+        <Ionicon icon={iconName} fontSize="35px" />
       </div>
     );
   }

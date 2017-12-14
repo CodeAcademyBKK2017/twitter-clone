@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import classNames from 'classnames';
 import headerStyle from './Header.style.css';
-import {Icon} from 'react-fa';
+import Ionicon from 'react-ionicons';
 import Circle from '../Circle/Circle.component';
 import Search from '../Search/Search.component';
 
@@ -11,23 +11,23 @@ class Header extends Component {
       <div className={classNames(headerStyle.header)}>
         <div className={classNames(headerStyle.left)}>
           <div className={classNames(headerStyle.circleContainer, headerStyle.circleContainer__first, headerStyle.circleContainer__borderRight)}>
-            <Circle iconName="twitter" type="brand" />
+            <Circle iconName="ion-social-twitter-outline" type="brand" />
           </div>
           <div className={classNames(headerStyle.circleContainer)}>
-            <Circle iconName="bell-o" />
+            <Circle iconName="ios-notifications-outline" />
           </div>
           <div className={classNames(headerStyle.circleContainer)}>
-            <Circle iconName="envelope-o" />
+            <Circle iconName="ios-mail-outline" />
           </div>
           <div className={classNames(headerStyle.circleContainer, headerStyle.circleContainer__borderBottom)}>
-            <Circle iconName="hashtag" />
+            <Circle iconName="ion-android-globe" />
           </div>
         </div>
-        <div className={classNames(headerStyle.logo)}><Icon name="twitter" size="2x" /></div>
+        <div className={classNames(headerStyle.logo)}><Ionicon icon="logo-twitter" fontSize="35px" color="#81a9cb" /></div>
         <div className={classNames(headerStyle.right)}>
           <Search />
           <div className={classNames(headerStyle.circleContainer, headerStyle.circleContainer__user)}>
-            <Circle iconName="user-o" />
+            <Circle iconName="ion-android-person" />
           </div>
         </div>
       </div>

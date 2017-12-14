@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import classNames from 'classnames';
 import searchStyle from './Search.style.css';
-import {Icon} from 'react-fa';
+import Ionicon from 'react-ionicons';
 
 class Search extends Component {
   render () {
     return (
       <div className={classNames(searchStyle.form)}>
         <input type="text" className={classNames(searchStyle.form__input)} />
-        <Icon name="search" className={classNames(searchStyle.form__icon)} />
+        <Ionicon name="search" icon="ion-search" className={classNames(searchStyle.form__icon)} fontSize="35px" />
       </div>
     );
   }
