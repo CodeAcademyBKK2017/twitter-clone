@@ -7,8 +7,8 @@ class Header extends Component {
   render () {
     return (
       <div className="app-header shadow white-box" >
-        <div className="before-left"> <Circle color="twitter"><Icon name='twitter' /></Circle></div>
         <div className="left-content"> 
+          <div className="before-left"> <Circle color="twitter"><Icon name='twitter' /></Circle></div>
           <Circle color="" margin="margin-l"><Icon name='bell-o' /></Circle>
           <Circle color="" margin="margin-l"><Icon name='envelope-o' /></Circle>
           <Circle color="" margin="margin-l"><Icon name='hashtag' /></Circle>
