@@ -1,6 +1,6 @@
 import SearchStyles from './Search.css';
 import React, {Component} from 'react';
-import {Icon} from 'react-fa';
+
 
 class Search extends Component {
 
@@ -8,7 +8,7 @@ class Search extends Component {
     return (
       <div className={SearchStyles.search}>
         <input name="search" placeholder="Search" />
-        <Icon name="search" />
+        {/* <Icon name="search" /> */}
       </div>
     );
   }

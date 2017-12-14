@@ -23,12 +23,12 @@ class Header extends Component {
         <div className={`${HeaderStyles.logoContainer} ${AppStyles.textCenter}`}>
           <Icon icon="logo-twitter" fontSize="35px" color="#80A8CC" />
         </div>
-        <div className={HeaderStyles.rightContainer}>
+        {/* <div className={HeaderStyles.rightContainer}>
           <Search />
           <div className={HeaderStyles.profile}>
             <Circle><img src="http://icons.iconarchive.com/icons/designbolts/despicable-me-2/128/Minion-Dancing-icon.png" width="24" height="24" /></Circle>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }

@@ -8,9 +8,8 @@ class Circle extends Component {
   render () {
     const {iconName, opaque, children} = this.props;
     const iconColor = opaque ? 'white' : '#605e58';
-    const element = children ||  <Icon icon={iconName} color={iconColor} fontSize="20px"/>;
+    const element = children || <Icon icon={iconName} color={iconColor} fontSize="20px"/>;
    
-
     return (
       <div className={`${CircleStyles.circle} ${opaque ? CircleStyles.circleOpaque : ''}`}>
         {element}

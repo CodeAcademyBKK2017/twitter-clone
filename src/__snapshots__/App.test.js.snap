@@ -4,68 +4,7 @@ exports[`App component App: renders correctly 1`] = `
 <div>
   <div
     className="undefined undefined"
-  >
-    <div
-      className={undefined}
-    >
-      <div
-        className={undefined}
-      >
-        <div
-          className="undefined undefined"
-        />
-      </div>
-      <ul
-        className={undefined}
-      >
-        <li
-          className={undefined}
-        >
-          <div
-            className="undefined "
-          />
-        </li>
-        <li>
-          <div
-            className="undefined "
-          />
-        </li>
-        <li>
-          <div
-            className="undefined "
-          />
-        </li>
-      </ul>
-    </div>
-    <div
-      className="undefined undefined"
-    />
-    <div
-      className={undefined}
-    >
-      <div
-        className={undefined}
-      >
-        <input
-          name="search"
-          placeholder="Search"
-        />
-      </div>
-      <div
-        className={undefined}
-      >
-        <div
-          className="undefined "
-        >
-          <img
-            height="24"
-            src="http://icons.iconarchive.com/icons/designbolts/despicable-me-2/128/Minion-Dancing-icon.png"
-            width="24"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
+  />
   <div
     className={undefined}
   >
