@@ -1,4 +1,4 @@
-import './Circle.style.css';
+import CircleStyle from './Circle.style.css';
 import React, {Component} from 'react';
 import {Icon} from 'react-fa';
 import PropTypes from 'prop-types';
@@ -7,7 +7,7 @@ class Circle extends Component {
 	render () {
 		const {children, isBrand, iconName} = this.props;
 		return (
-			<div className={`circle ${isBrand ? 'brand' : ''}`}>
+			<div className={`${CircleStyle.circle} ${isBrand ? CircleStyle.brand : ''}`}>
 				<Icon name={iconName}/>
 				{children}
 			</div>

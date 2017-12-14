@@ -22,11 +22,11 @@
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
 }
 
-.box.menu {
+.menu {
 	height: 50px;
 }
 
-.box.content {
+.content {
 	height: 1000px;
 	margin-top: 20px;
 }

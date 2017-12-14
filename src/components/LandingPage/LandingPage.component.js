@@ -1,4 +1,4 @@
-import './LandingPage.style.css';
+import LandingPageStyle from './LandingPage.style.css';
 import React, {Component} from 'react';
 import Header from '../Header/Header.component';
 
@@ -10,13 +10,13 @@ class LandingPage extends Component {
 		// const {title, type, onClick} = this.props;
 		
 		return (
-			<div className="container">
+			<div className={LandingPageStyle.container}>
 				<Header/>
 				
-				<div className="main">
-					<div className="center">
-						<div className="box menu"/>
-						<div className="box content"/>
+				<div className={LandingPageStyle.main}>
+					<div className={LandingPageStyle.center}>
+						<div className={`${LandingPageStyle.box} ${LandingPageStyle.menu}`}/>
+						<div className={`${LandingPageStyle.box} ${LandingPageStyle.content}`}/>
 					</div>
 				</div>
 			</div>

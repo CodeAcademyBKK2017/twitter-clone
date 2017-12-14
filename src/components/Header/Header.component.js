@@ -1,4 +1,6 @@
-import './Header.style.css';
+import HeaderStyle from './Header.style.css';
+import LandingPageStyle from '../LandingPage/LandingPage.style.css';
+import CircleStyle from '../Circle/Circle.style.css';
 import React, {Component} from 'react';
 import Circle from '../Circle/Circle.component';
 import SearchBar from '../SearchBar/SearchBar.component';
@@ -7,15 +9,15 @@ import {Icon} from 'react-fa';
 class Header extends Component {
 	render () {
 		return (
-			<div className="box twitter-header">
-				<div className="left-content">
-					<div className="brand-container">
+			<div className={`${LandingPageStyle.box} ${HeaderStyle.twitterHeader}`}>
+				<div className={HeaderStyle.leftContent}>
+					<div className={HeaderStyle.brandContainer}>
 						<Circle isBrand={true} iconName="twitter"/>
 					</div>
 					
-					<div className="line-spliter"/>
+					<div className={HeaderStyle.lineSpliter}/>
 
-					<div className="button-container">
+					<div className={HeaderStyle.buttonContainer}>
 						<Circle iconName="bell-o"/>
 						<Circle iconName="envelope-o"/>
 						<Circle iconName="hashtag"/>
@@ -23,16 +25,16 @@ class Header extends Component {
 					</div>
 				</div>
 
-				<div className="logo-content">
-					<Icon className="twitter-logo" name="twitter" size="2x"/>
+				<div className={HeaderStyle.logoContent}>
+					<Icon className={HeaderStyle.twitterLogo} name="twitter" size="2x"/>
 				</div>
 
-				<div className="right-content">
+				<div className={HeaderStyle.rightContent}>
 					<SearchBar/>
 
-					<div className="brand-container">
+					<div className={HeaderStyle.brandContainer}>
 						<Circle>
-							<img className="circle image" src="https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png" alt=""/>
+							<img className={`${CircleStyle.circle} ${CircleStyle.image}`} src="https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png" alt=""/>
 						</Circle>
 					</div>
 				</div>

@@ -1,4 +1,4 @@
-.search-bar {
+.searchBar {
 	/* position: relative; */
 
 	display: flex;
@@ -14,7 +14,7 @@
 	flex: 0.5;
 }
 
-.search-box {
+.searchBox {
 	border: solid 0px;
 	flex: 1;
 	background: red;
@@ -22,7 +22,7 @@
 	position: absolute; */
 }
 
-.search-icon {
+.searchIcon {
 	color: rgba(128, 128, 128, 0.5);
 	margin-left: 10px;
 

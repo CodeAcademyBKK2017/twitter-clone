@@ -1,4 +1,4 @@
-.box.twitter-header {
+.twitterHeader {
 	position: fixed;
 	left: 0;
 	right: 0;
@@ -9,21 +9,21 @@
 	align-items: center;
 }
 
-.left-content {
+.leftContent {
 	flex: 4;
 
 	display: flex;
 	justify-content: flex-start;
 }
 
-.logo-content {
+.logoContent {
 	flex: 1;
 
 	display: flex;
 	justify-content: center;
 }
 
-.right-content {
+.rightContent {
 	flex: 4;
 
 	display: flex;
@@ -31,24 +31,24 @@
 	align-items: center;
 }
 
-.brand-container {
+.brandContainer {
 	padding: 10px;
 }
 
-.line-spliter {
+.lineSpliter {
 	background: rgba(128, 128, 128, 0.5);
 	width: 1px;
 }
 
-.button-container {
+.buttonContainer {
 	display: flex;
 	padding: 10px;
 }
 
-.twitter-logo {
+.twitterLogo {
 	color: #80A8CC;
 }
 
-.avatar-container {
+.avatarContainer {
 	padding: 10px;
 }
