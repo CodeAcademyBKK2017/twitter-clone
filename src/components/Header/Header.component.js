@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
-import './Header.style.css';
+import classNames from 'classnames';
+import headerStyle from './Header.style.css';
 import {Icon} from 'react-fa';
 import Circle from '../Circle/Circle.component';
 import Search from '../Search/Search.component';
@@ -8,25 +8,25 @@ import Search from '../Search/Search.component';
 class Header extends Component {
   render () {
     return (
-      <div className='header'>
-        <div className='header--left'>
-          <div className="circle-container circle-container__first circle-container__border-right">
-            <Circle iconName="twitter" colorStyle="blue" />
+      <div className={classNames(headerStyle.header)}>
+        <div className={classNames(headerStyle.left)}>
+          <div className={classNames(headerStyle.circleContainer, headerStyle.circleContainer__first, headerStyle.circleContainer__borderRight)}>
+            <Circle iconName="twitter" type="brand" />
           </div>
-          <div className="circle-container">
+          <div className={classNames(headerStyle.circleContainer)}>
             <Circle iconName="bell-o" />
           </div>
-          <div className="circle-container">
+          <div className={classNames(headerStyle.circleContainer)}>
             <Circle iconName="envelope-o" />
           </div>
-          <div className="circle-container circle-container__border-bottom">
+          <div className={classNames(headerStyle.circleContainer, headerStyle.circleContainer__borderBottom)}>
             <Circle iconName="hashtag" />
           </div>
         </div>
-        <div className='header--logo'><Icon name="twitter" size="2x" /></div>
-        <div className='header--right'>
+        <div className={classNames(headerStyle.logo)}><Icon name="twitter" size="2x" /></div>
+        <div className={classNames(headerStyle.right)}>
           <Search />
-          <div className="circle-container circle-container__user">
+          <div className={classNames(headerStyle.circleContainer, headerStyle.circleContainer__user)}>
             <Circle iconName="user-o" />
           </div>
         </div>

@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
-import './Search.style.css';
+import classNames from 'classnames';
+import searchStyle from './Search.style.css';
 import {Icon} from 'react-fa';
 
 class Search extends Component {
   render () {
     return (
-      <div className="search-form">
-        <input type="text" className="search-form__input" />
-        <Icon name="search" className="search-form__icon" />
+      <div className={classNames(searchStyle.form)}>
+        <input type="text" className={classNames(searchStyle.form__input)} />
+        <Icon name="search" className={classNames(searchStyle.form__icon)} />
       </div>
     );
   }

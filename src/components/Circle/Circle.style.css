@@ -1,23 +1,22 @@
-.icon {
+.normal {
     width: 35px;
     height: 35px;
     border-radius: 35px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-}
-.icon__gray {
     background-color: white;
     border: 1px solid #f8f4ee;
     color: lightgray;
 }
-.icon__blue {
+.brand {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     background-color: #81a9cb;
-    border: 1px solid #f8f4ee;
-    color: white;
-}
-.icon__red {
-    background-color: lightcoral;
     border: 1px solid #f8f4ee;
     color: white;
 }

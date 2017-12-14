@@ -1,15 +1,15 @@
-.search-form {
+.form {
     display: inline-flex;
     padding: 5px;
     border: 1px solid lightgray;
     border-radius: 10px;
 }
-.search-form__input {
+.form__input {
     border: none;
     color: darkgray;
     width: 20vw;
 }
-.search-form__icon {
+.form__icon {
     border: none;
     color: lightgray;
 }
