@@ -16,7 +16,7 @@ class Header extends Component {
           <div className={inputStyles.divide}/>
           <CircleNoneBG iconName={'ios-notifications'}/>
           <CircleNoneBG iconName={'ios-mail'}/>
-          <CircleNoneBG iconName={'ios-star'}/>
+          <CircleNoneBG iconName={'ios-grid-outline'}/>
         </div>
 
         <div className={inputStyles.flex1}><Icon fontSize='35px' color='#80A8CC' icon='logo-twitter'/></div>
