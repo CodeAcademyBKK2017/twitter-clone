@@ -107,7 +107,7 @@ exports[`App component App: renders correctly 1`] = `
     >
       <svg
         className="sc-bdVaJa fUuvxv"
-        fill="#80A8CC"
+        fill="#1e90ff"
         height="35px"
         onClick={undefined}
         rotate={0}
@@ -153,7 +153,7 @@ exports[`App component App: renders correctly 1`] = `
         >
           <svg
             className="sc-bdVaJa fUuvxv"
-            fill="#5f5f5f"
+            fill="red"
             height="22px"
             onClick={undefined}
             rotate={0}
@@ -162,7 +162,7 @@ exports[`App component App: renders correctly 1`] = `
             width="22px"
           >
             <path
-              d="M512 448c-35.4 0-64 28.6-64 64s28.6 64 64 64c35.4 0 64-28.6 64-64s-28.6-64-64-64v0z M256.8 448c-35.4 0-64 28.6-64 64s28.6 64 64 64c35.4 0 64-28.6 64-64s-28.8-64-64-64v0z M768 448c-35.4 0-64 28.6-64 64s28.6 64 64 64 64-28.6 64-64-28.6-64-64-64v0z"
+              d="M512 896l-60.328-54.422c-214.236-196.694-355.672-324.358-355.672-483.388 0-129.748 99.836-230.19 228.8-230.19 72.798 0 141.434 33.484 187.2 87.894 45.764-54.41 114.398-87.894 187.2-87.894 128.964 0 228.8 100.442 228.8 230.19 0 159.032-141.438 286.696-355.672 483.388l-60.328 54.422z"
             />
           </svg>
         </div>
