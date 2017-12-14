@@ -40,7 +40,22 @@ exports[`App component App: renders correctly 1`] = `
     </div>
     <div
       className="right-head"
-    />
+    >
+      <div
+        className="right-head-text"
+      >
+        <input
+          type="text"
+        />
+      </div>
+      <div
+        className="right-head-icon"
+      >
+        <div
+          className="circle"
+        />
+      </div>
+    </div>
   </div>
   <div
     className="box-main"
