@@ -1,4 +1,4 @@
-.Header.Shadow{
+.header.shadow{
     background-color: rgb(255, 255, 255);
     height: 60px;
     display: flex;
@@ -7,41 +7,41 @@
     width: 100%;
 }
 
-.Shadow{
+.shadow{
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
 }
 
-.Icon-Logo {
+.iconLogo {
     color: #80A8CC;
 }
 
-.Flex1{
+.flex1{
     display: flex;
     flex: 1;
     justify-content: center;
     align-items: center;
   }
   
-.Flex4{
+.flex4{
     display: flex;
     flex: 4;
     align-items: center;
 }
 
-.Divide{
+.divide{
     height: 60px;
     width: 1px;
     background-color: rgb(240, 240, 240);
 }
 
-.Content-Left{
+.contentLeft{
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.Content-Right{
+.contentRight{
     display: flex;
     justify-content: flex-end;
     align-items: center;

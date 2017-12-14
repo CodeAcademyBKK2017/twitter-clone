@@ -1,4 +1,4 @@
-.Circle{
+.circle{
     display: flex;
     width: 35px;
     height: 35px;
@@ -7,15 +7,15 @@
     align-items: center;
 }
 
-.Circle-Color-Blue{
+.circleColorBlue{
     background-color: #80A8CC;
 }
 
-.Circle-Color{
+.circleColor{
     border: 2px solid rgb(220, 220, 220);
 }
 
-.Box-Circle{
+.boxCircle{
     display: flex;
     width: 60px;
     height: 60px;
@@ -23,7 +23,7 @@
     align-items: center;
 }
 
-.Icon-Color-White {
+.iconColorWhite {
     color: rgb(255, 255, 255);
 }
 

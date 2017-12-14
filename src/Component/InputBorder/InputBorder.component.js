@@ -1,13 +1,13 @@
-import './InputBorder.component.css';
+import inputStyles from './InputBorder.component.css';
 import React, {Component} from 'react';
 import {Icon} from 'react-fa';
 
 class InputBorder extends Component {
   render () {
     return (
-      <div className='Border'>
-        <input className='Input' placeholder="Search"/>
-        <Icon className='Color' name='search'/>
+      <div className={inputStyles.borderStyle}>
+        <input className={inputStyles.inputStyle} placeholder="Search"/>
+        <Icon className={inputStyles.colorStyle} name='search'/>
       </div>
     );
   }

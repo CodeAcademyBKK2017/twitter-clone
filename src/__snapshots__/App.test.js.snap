@@ -5,74 +5,74 @@ exports[`App component App: renders correctly 1`] = `
   className="App"
 >
   <div
-    className="Header Shadow"
+    className=""
   >
     <div
-      className="Flex4 Content-Left"
+      className=""
     >
       <div
-        className="Box-Circle"
+        className={undefined}
       >
         <div
-          className="Circle Circle-Color-Blue"
+          className=""
         />
       </div>
       <div
-        className="Divide"
+        className={undefined}
       />
       <div
-        className="Box-Circle"
+        className={undefined}
       >
         <div
-          className="Circle Circle-Color"
+          className=""
         />
       </div>
       <div
-        className="Box-Circle"
+        className={undefined}
       >
         <div
-          className="Circle Circle-Color"
+          className=""
         />
       </div>
       <div
-        className="Box-Circle"
+        className={undefined}
       >
         <div
-          className="Circle Circle-Color"
+          className=""
         />
       </div>
     </div>
     <div
-      className="Flex1"
+      className={undefined}
     />
     <div
-      className="Flex4 Content-Right"
+      className=""
     >
       <div
-        className="Border"
+        className={undefined}
       >
         <input
-          className="Input"
+          className={undefined}
           placeholder="Search"
         />
       </div>
       <div
-        className="Box-Circle"
+        className={undefined}
       >
         <div
-          className="Circle Circle-Color"
+          className=""
         />
       </div>
     </div>
   </div>
   <div
-    className="Box"
+    className={undefined}
   >
     <div
-      className="Box-title Shadow"
+      className=""
     />
     <div
-      className="Box-content Shadow"
+      className=""
     />
   </div>
 </div>

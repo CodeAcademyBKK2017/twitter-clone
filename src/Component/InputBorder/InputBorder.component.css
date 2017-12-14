@@ -1,4 +1,4 @@
-.Border{
+.borderStyle{
     display: flex;
     border-radius: 50px;
     justify-content: center;
@@ -7,12 +7,12 @@
     padding: 5px 10px 5px;
 }
 
-.Input{
+.inputStyle{
     width: 200px;
     height: 25px;
-    border: 1px solid white;
+    border: 0px solid white;
 }
 
-.Color {
+.colorStyle{
     color: rgb(200, 200, 200);
 }
