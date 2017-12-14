@@ -139,6 +139,7 @@ exports[`App component App: renders correctly 1`] = `
         >
           <input
             className={undefined}
+            placeholder="Search"
             type="text"
           />
           <svg
