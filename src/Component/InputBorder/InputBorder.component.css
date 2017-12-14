@@ -8,6 +8,8 @@
 }
 
 .Input{
+    width: 200px;
+    height: 25px;
     border: 1px solid white;
 }
 
