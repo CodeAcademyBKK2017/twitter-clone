@@ -1,4 +1,5 @@
 import headerStyle from './Header.css';
+import circleStyle from '../Circle/Circle.css';
 import React, {Component} from 'react';
 import {Icon} from 'react-fa';
 import Circle from '../Circle/Circle.component';
@@ -10,18 +11,18 @@ class Header extends Component {
       <div className={classNames(headerStyle.header, headerStyle.box_shadow, headerStyle.background_white)}>
         <div className={headerStyle.left_head}>
           <div className={headerStyle.head_first_icon}>
-            <Circle circle="circle background-sky">
+            <Circle circle={classNames(circleStyle.circle, circleStyle.background_sky)}>
               <Icon name="twitter" />
             </Circle>
           </div>
           <div className={headerStyle.head_second_icon}>
-            <Circle circle="circle">
+            <Circle circle={circleStyle.circle}>
               <Icon name="bell-o" />
             </Circle>
-            <Circle circle="circle">
+            <Circle circle={circleStyle.circle}>
               <Icon name="envelope-o" />
             </Circle>
-            <Circle circle="circle">
+            <Circle circle={circleStyle.circle}>
               <Icon name="hashtag" />
             </Circle>
           </div>
@@ -37,7 +38,7 @@ class Header extends Component {
             <Icon name="search"/>
           </div>
           <div className={headerStyle.right_head_icon}>
-            <Circle circle="circle">
+            <Circle circle={circleStyle.circle}>
               <Icon name="user-o" />
             </Circle>
           </div>

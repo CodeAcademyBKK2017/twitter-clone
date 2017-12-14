@@ -2,23 +2,23 @@
 
 exports[`App component App: renders correctly 1`] = `
 <div
-  className="main-app"
+  className={undefined}
 >
   <div
-    className="header box-shadow background-white"
+    className=""
   >
     <div
-      className="left-head"
+      className={undefined}
     >
       <div
-        className="head-first-icon"
+        className={undefined}
       >
         <div
           className="circle background-sky"
         />
       </div>
       <div
-        className="head-second-icon"
+        className={undefined}
       >
         <div
           className="circle"
@@ -32,24 +32,24 @@ exports[`App component App: renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="center-head"
+      className={undefined}
     >
       <div
         className=""
       />
     </div>
     <div
-      className="right-head"
+      className={undefined}
     >
       <div
-        className="right-head-text"
+        className={undefined}
       >
         <input
           type="text"
         />
       </div>
       <div
-        className="right-head-icon"
+        className={undefined}
       >
         <div
           className="circle"
@@ -58,13 +58,13 @@ exports[`App component App: renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="box-main"
+    className={undefined}
   >
     <div
-      className="second-container box-shadow background-white"
+      className=""
     />
     <div
-      className="content box-shadow background-white"
+      className=""
     />
   </div>
 </div>
