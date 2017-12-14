@@ -34,6 +34,16 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 2px solid transparent;
+}
+.circleContainer:hover {
+    border-bottom: 2px solid #81a9cb;
+}
+.circleContainer:active {
+    border-bottom: 2px solid red;
+}
+.circleContainer.active {
+    border-bottom: 2px solid #81a9cb;
 }
 .circleContainer__first {
     width: 55px;
@@ -43,10 +53,7 @@
     width: 55px;
 }
 .circleContainer__borderRight {
-    border-right: 1px solid #f8f4ee;
-}
-.circleContainer__borderBottom {
-    border-bottom: 2px solid #81a9cb;
+    border-right: 2px solid #f8f4ee;
 }
 .circleContainer+.circleContainer {
     width: 45px;

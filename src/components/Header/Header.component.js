@@ -19,15 +19,15 @@ class Header extends Component {
           <div className={classNames(headerStyle.circleContainer)}>
             <Circle iconName="ios-mail-outline" />
           </div>
-          <div className={classNames(headerStyle.circleContainer, headerStyle.circleContainer__borderBottom)}>
-            <Circle iconName="ion-android-globe" />
+          <div className={classNames(headerStyle.circleContainer, headerStyle.active)}>
+            <Circle iconName="ios-globe" />
           </div>
         </div>
         <div className={classNames(headerStyle.logo)}><Ionicon icon="logo-twitter" fontSize="35px" color="#81a9cb" /></div>
         <div className={classNames(headerStyle.right)}>
           <Search />
           <div className={classNames(headerStyle.circleContainer, headerStyle.circleContainer__user)}>
-            <Circle iconName="ion-android-person" />
+            <Circle iconName="ios-ionitron-outline" />
           </div>
         </div>
       </div>
