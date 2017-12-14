@@ -1,19 +1,21 @@
-.app-header{
+.appHeader{
     position: fixed;
     display: flex;
     justify-content: space-around;
     height: 60px;
     left:0;
     right:0;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
+    background-color: white;
 }
-.left-content{
+.leftContent{
     display: flex;
     justify-content: flex-start;
     align-content: space-between;
     align-items: center;
     flex:4;
 }
-.right-content{
+.rightContent{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -27,7 +29,7 @@
     align-items: center;
     flex:1;  
 }
-.before-left{
+.beforeLeft{
     display: flex;
     justify-content: center;
     align-items: center;
