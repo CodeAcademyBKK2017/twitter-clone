@@ -3,7 +3,7 @@ import HeaderStyles from './Header.css';
 import React, {Component} from 'react';
 import Circle from '../Circle/Circle.component';
 import Search from '../Search/Search.component';
-import {Icon} from 'react-fa';
+import Icon from 'react-ionicons';
 
 class Header extends Component {
 
@@ -12,16 +12,16 @@ class Header extends Component {
       <div className={`${HeaderStyles.header} ${AppStyles.panel}`}>
         <div className={HeaderStyles.leftContainer}>
           <div className={HeaderStyles.brand}>
-            <Circle iconName="twitter" opaque={true} />
+            <Circle iconName="logo-twitter" opaque={true} />
           </div>
           <ul className={HeaderStyles.nav}>
-            <li className={HeaderStyles.active}><Circle iconName="bell-o" /></li>
-            <li><Circle iconName="envelope-o" /></li>
-            <li><Circle iconName="hashtag" /></li>
+            <li><Circle iconName="ios-notifications-outline" /></li>
+            <li><Circle iconName="ios-mail-outline" /></li>
+            <li className={HeaderStyles.active}><Circle iconName="ios-grid-outline" /></li>
           </ul>
         </div>
         <div className={`${HeaderStyles.logoContainer} ${AppStyles.textCenter}`}>
-          <Icon name="twitter" className="logo" size="2x" />
+          <Icon icon="logo-twitter" fontSize="35px" color="#80A8CC" />
         </div>
         <div className={HeaderStyles.rightContainer}>
           <Search />

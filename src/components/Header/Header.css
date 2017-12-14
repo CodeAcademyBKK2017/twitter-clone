@@ -46,9 +46,13 @@ ul.nav {
 }
 ul.nav li {
   padding: 12px 10px;
+  cursor: pointer;
 }
-ul.nav li.active {
+ul.nav li.active, ul.nav li.active:hover, ul.nav li:active {
   border-bottom: 1px solid #80A8CC;
+}
+ul.nav li:hover {
+  border-bottom: 1px solid #cbccce;
 }
 
 .profile {

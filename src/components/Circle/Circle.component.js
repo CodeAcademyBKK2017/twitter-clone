@@ -1,13 +1,15 @@
 import CircleStyles from  './Circle.css';
 import React, {Component} from 'react';
-import {Icon} from 'react-fa';
+import Icon from 'react-ionicons';
 import PropTypes from 'prop-types';
 
 class Circle extends Component {
 
   render () {
     const {iconName, opaque, children} = this.props;
-    const element = children || <Icon name={iconName} />;
+    const iconColor = opaque ? 'white' : '#605e58';
+    const element = children ||  <Icon icon={iconName} color={iconColor} fontSize="20px"/>;
+   
 
     return (
       <div className={`${CircleStyles.circle} ${opaque ? CircleStyles.circleOpaque : ''}`}>
