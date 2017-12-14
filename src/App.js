@@ -1,4 +1,5 @@
-import './App.css';
+import classNames from 'classnames';
+import appStyle from './App.css';
 import React, {Component} from 'react';
 import Header from './components/Header/Header.component';
 
@@ -7,9 +8,9 @@ class App extends Component {
     return (
       <div >
         <Header />
-        <div className='body'>
-          <div className='stat'>stat</div>
-          <div className='feed'>feed</div>
+        <div className={classNames(appStyle.body)}>
+          <div className={classNames(appStyle.stat)}>stat</div>
+          <div className={classNames(appStyle.feed)}>feed</div>
         </div>
       </div>
     );
