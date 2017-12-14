@@ -6,7 +6,7 @@ class SearchBar extends Component {
 	render () {
 		return (
 			<div className={SearchBarStyle.searchBar}>
-				<input className={SearchBarStyle.searchBox} type="text"/>
+				<input className={SearchBarStyle.searchBox} type="text" placeholder="Search"/>
 				<Icon className={SearchBarStyle.searchIcon} icon="ios-search"/>
 			</div>
 		);
