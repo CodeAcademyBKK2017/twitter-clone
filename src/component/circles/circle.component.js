@@ -1,12 +1,14 @@
-import './circle.style.css';
+import circleCss from './circle.style.css';
+import AppCss from '../../App.css';
 import React, {Component} from 'react';
 import ProptTypes from 'prop-types';
+import className from 'classname';
 
 class circle extends Component {
   render () {
     return (
-      <div className='sperateBTN isFlex Center'>
-        <div className='cirBTN isFlex Center'>
+      <div className={className(circleCss.sperateBTN, AppCss.isFlex, AppCss.Center)}>
+        <div className={className(circleCss.cirBTN, AppCss.isFlex, AppCss.Center)}>
           {this.props.children}
         </div>
       </div>

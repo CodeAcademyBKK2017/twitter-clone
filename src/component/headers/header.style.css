@@ -1,29 +1,21 @@
 .Logo{
     color:rgb(29, 161, 242);
     font-size: 35px;
-    
   }
-.isFlex{
-    display: flex;
-}
-.Center{
-    justify-content: center;
-    align-items: center;
-}
-  .ConLogo.Center.isFlex{
+  .ConLogo{
     flex: 1;
   }
-  .leftContain.isFlex{
+  .leftContain{
     flex: 4;
     justify-content: flex-start;
     align-items: center;
   }
-  .rightContain.isFlex{
+  .rightContain{
     flex: 4;
     justify-content:flex-end;
     align-items: center;
   }
-  .leftConLogo.isFlex{
+  .leftConLogo{
     height: 60px;
     width: 50px;
     border-right: 1px solid lightgrey;
@@ -35,8 +27,17 @@
     color:white;
     background-color: rgb(29, 161, 242);
   }
-  .btnGroup.isFlex{
+  .btnGroup{
     justify-content:flex-start;
     align-items: center;
     flex:9;
+  }
+  .headerTwit {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+  }
+  .userIcon{
+    width: 60%;
   }
