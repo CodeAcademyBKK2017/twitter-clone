@@ -4,7 +4,7 @@ import CircleStyle from '../Circle/Circle.style.css';
 import React, {Component} from 'react';
 import Circle from '../Circle/Circle.component';
 import SearchBar from '../SearchBar/SearchBar.component';
-import {Icon} from 'react-fa';
+import Icon from 'react-ionicons';
 
 class Header extends Component {
 	render () {
@@ -12,21 +12,21 @@ class Header extends Component {
 			<div className={`${LandingPageStyle.box} ${HeaderStyle.twitterHeader}`}>
 				<div className={HeaderStyle.leftContent}>
 					<div className={HeaderStyle.brandContainer}>
-						<Circle isBrand={true} iconName="twitter"/>
+						<Circle isBrand={true} iconName="logo-twitter"/>
 					</div>
 					
 					<div className={HeaderStyle.lineSpliter}/>
 
 					<div className={HeaderStyle.buttonContainer}>
-						<Circle iconName="bell-o"/>
-						<Circle iconName="envelope-o"/>
-						<Circle iconName="hashtag"/>
+						<Circle iconName="ios-notifications-outline"/>
+						<Circle iconName="ios-mail-outline"/>
+						<Circle iconName="ios-add"/>
 						<Circle/>
 					</div>
 				</div>
 
 				<div className={HeaderStyle.logoContent}>
-					<Icon className={HeaderStyle.twitterLogo} name="twitter" size="2x"/>
+					<Icon className={HeaderStyle.twitterLogo} icon="logo-twitter" size="2x"/>
 				</div>
 
 				<div className={HeaderStyle.rightContent}>

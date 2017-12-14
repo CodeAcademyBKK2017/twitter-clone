@@ -1,6 +1,6 @@
 import CircleStyle from './Circle.style.css';
 import React, {Component} from 'react';
-import {Icon} from 'react-fa';
+import Icon from 'react-ionicons';
 import PropTypes from 'prop-types';
 
 class Circle extends Component {
@@ -8,7 +8,7 @@ class Circle extends Component {
 		const {children, isBrand, iconName} = this.props;
 		return (
 			<div className={`${CircleStyle.circle} ${isBrand ? CircleStyle.brand : ''}`}>
-				<Icon name={iconName}/>
+				<Icon icon={iconName}/>
 				{children}
 			</div>
 		);
