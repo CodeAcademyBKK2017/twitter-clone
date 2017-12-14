@@ -6,6 +6,9 @@
     -moz-box-shadow: none;
     box-shadow: none;
 }
+.input:focus{
+    background-color: green;
+}
 .search{
     display: flex;
     justify-content: flex-end;

@@ -7,6 +7,13 @@
     height: 35px;
     border-radius: 50%;
 }
+.circle:hover{
+    background-color: #cbccce;
+}
+.circle:active{
+    background-color: red;
+}
+
 .twitter{
     color: white;
     background-color: #1da1f2;
