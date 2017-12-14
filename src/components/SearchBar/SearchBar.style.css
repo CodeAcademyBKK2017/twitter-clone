@@ -1,5 +1,8 @@
 .search-bar {
+	/* position: relative; */
+
 	display: flex;
+	/* justify-content: flex-end; */
 	align-items: center;
 
 	border: solid 1px rgba(128, 128, 128, 0.5);
@@ -7,15 +10,22 @@
 	
 	padding: 10px;
 	height: 10px;
-	width: 20vw;
+	/* width: 30%; */
+	flex: 0.5;
 }
 
 .search-box {
 	border: solid 0px;
-	width: stretch;
+	flex: 1;
+	background: red;
+	/* margin-right: 20px;
+	position: absolute; */
 }
 
 .search-icon {
 	color: rgba(128, 128, 128, 0.5);
 	margin-left: 10px;
+
+	/* position: absolute;
+	right: 10px; */
 }
