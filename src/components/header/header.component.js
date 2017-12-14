@@ -1,6 +1,7 @@
 import './Header.css';
 import React, {Component} from 'react';
 import Circle from '../Circle/Circle.component';
+import Search from '../Search/Search.component';
 import {Icon} from 'react-fa';
 
 class Header extends Component {
@@ -22,10 +23,7 @@ class Header extends Component {
           <Icon name="twitter" className="logo" size="2x" />
         </div>
         <div className="right-content">
-          <div className="search">
-            <input name="search" placeholder="Search" />
-            <Icon name="search" />
-          </div>
+          <Search />
           <div className="profile">
             <Circle><img src="http://icons.iconarchive.com/icons/designbolts/despicable-me-2/128/Minion-Dancing-icon.png" width="24" height="24" /></Circle>
           </div>
