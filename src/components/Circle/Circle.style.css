@@ -20,3 +20,8 @@
 .circle+.circle {
 	margin-left: 10px;
 }
+
+.circle.image {
+	width: 100%;
+	height: 100%;
+}

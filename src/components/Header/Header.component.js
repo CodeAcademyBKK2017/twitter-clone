@@ -31,7 +31,9 @@ class Header extends Component {
 					<SearchBar/>
 
 					<div className="brand-container">
-						<Circle/>
+						<Circle>
+							<img className="circle image" src="https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png" alt=""/>
+						</Circle>
 					</div>
 				</div>
 			</div>

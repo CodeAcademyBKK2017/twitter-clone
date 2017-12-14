@@ -5,23 +5,24 @@ import PropTypes from 'prop-types';
 
 class Circle extends Component {
 	render () {
-		const {isBrand, iconName} = this.props;
+		const {children, isBrand, iconName} = this.props;
 		return (
 			<div className={`circle ${isBrand ? 'brand' : ''}`}>
 				<Icon name={iconName}/>
+				{children}
 			</div>
 		);
 	}
 }
 
 Circle.propTypes = {
-	// children: PropTypes.node.isRequired,
+	children: PropTypes.node.isRequired,
 	isBrand: PropTypes.bool.isRequired,
 	iconName: PropTypes.string.isRequired
 };
 
 Circle.defaultProps = {
-	// children: null,
+	children: [],
 	isBrand: false,
 	iconName: ''
 };
