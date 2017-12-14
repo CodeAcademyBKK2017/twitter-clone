@@ -13,7 +13,7 @@ class Header extends Component {
           </div>
           <Circle type="normalL"><Icon icon='ios-notifications-outline' /></Circle>
           <Circle type="normalL"><Icon icon='ios-mail-outline' /></Circle>
-          <Circle type="normalL"><Icon icon='ios-pricetag' /></Circle>
+          <Circle type="normalL"><Icon icon='ios-grid-outline' /></Circle>
         </div>
         <div className={headerStyles.logo}> <Icon icon='logo-twitter' fonSize='35px' color="#00aced"  /></div>
         <div className={headerStyles.rightContent}>
