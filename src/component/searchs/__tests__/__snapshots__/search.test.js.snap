@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component Search: renders correctly 1`] = `
+<div
+  className="searchInput isFlex Center"
+>
+  <input
+    placeholder="Search"
+    type="text"
+  />
+</div>
+`;

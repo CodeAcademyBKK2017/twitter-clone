@@ -46,6 +46,14 @@ exports[`App component App: renders correctly 1`] = `
       className="rightContain isFlex"
     >
       <div
+        className="searchInput isFlex Center"
+      >
+        <input
+          placeholder="Search"
+          type="text"
+        />
+      </div>
+      <div
         className="sperateBTN isFlex Center"
       >
         <div
