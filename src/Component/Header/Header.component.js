@@ -14,16 +14,16 @@ class Header extends Component {
         <div className={className(inputStyles.flex4, inputStyles.contentLeft)}>
           <CircleBG iconName={'logo-twitter'} color='white'/>
           <div className={inputStyles.divide}/>
-          <CircleNoneBG iconName={'ios-notifications'}/>
-          <CircleNoneBG iconName={'ios-mail'}/>
-          <CircleNoneBG iconName={'ios-grid-outline'}/>
+          <CircleNoneBG color='#5f5f5f' iconName={'ios-notifications'}/>
+          <CircleNoneBG color='#5f5f5f' iconName={'ios-mail'}/>
+          <CircleNoneBG color='#5f5f5f' iconName={'ios-grid-outline'}/>
         </div>
 
-        <div className={inputStyles.flex1}><Icon fontSize='35px' color='#80A8CC' icon='logo-twitter'/></div>
+        <div className={inputStyles.flex1}><Icon fontSize='35px' color='#1e90ff' icon='logo-twitter'/></div>
 
         <div className={className(inputStyles.flex4, inputStyles.contentRight)}>
           <InputBorder />
-          <CircleNoneBG iconName={'ios-more'}/>
+          <CircleNoneBG color='red' iconName={'md-heart'}/>
         </div>
       </div>
     );

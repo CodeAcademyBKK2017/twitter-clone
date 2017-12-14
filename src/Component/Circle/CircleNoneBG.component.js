@@ -9,7 +9,7 @@ class CircleNoneBG extends Component {
     return (
       <div className={inputStyles.boxCircle}>
         <div className={className(inputStyles.circle, inputStyles.circleColor)}>
-          <Icon color='#5f5f5f' icon={`${this.props.iconName}`}/>
+          <Icon color={`${this.props.color}`} icon={`${this.props.iconName}`}/>
         </div>
       </div>
     );
@@ -17,7 +17,8 @@ class CircleNoneBG extends Component {
 }
 
 CircleNoneBG.propTypes = {
-  iconName: PropTypes.string.isRequired
+  iconName: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired
 };
 
 export default CircleNoneBG;
