@@ -2,13 +2,13 @@
 
 exports[`Search group Test Search: snapshot test 1`] = `
 <div
-  className="search"
+  className={undefined}
 >
   <input
-    className="input"
+    className={undefined}
   />
   <div
-    className="search-icon"
+    className={undefined}
   />
 </div>
 `;

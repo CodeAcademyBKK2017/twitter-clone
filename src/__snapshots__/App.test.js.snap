@@ -5,61 +5,61 @@ exports[`App component App: renders correctly 1`] = `
   className="app"
 >
   <div
-    className="app-header shadow white-box"
+    className={undefined}
   >
     <div
-      className="left-content"
+      className={undefined}
     >
       <div
-        className="before-left"
+        className={undefined}
       >
          
         <div
-          className="circle twitter undefined"
+          className="undefined undefined"
         >
            
            
         </div>
       </div>
       <div
-        className="circle  margin-l"
+        className="undefined undefined"
       >
          
          
       </div>
       <div
-        className="circle  margin-l"
+        className="undefined undefined"
       >
          
          
       </div>
       <div
-        className="circle  margin-l"
+        className="undefined undefined"
       >
          
          
       </div>
     </div>
     <div
-      className="logo"
+      className={undefined}
     >
        
     </div>
     <div
-      className="right-content"
+      className={undefined}
     >
       <div
-        className="search"
+        className={undefined}
       >
         <input
-          className="input"
+          className={undefined}
         />
         <div
-          className="search-icon"
+          className={undefined}
         />
       </div>
       <div
-        className="circle undefined margin-rl"
+        className="undefined undefined"
       >
          
         <img

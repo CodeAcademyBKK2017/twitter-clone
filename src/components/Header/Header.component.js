@@ -8,15 +8,15 @@ class Header extends Component {
     return (
       <div className={headerStyles.appHeader} >
         <div className={headerStyles.leftContent}> 
-          <div className={headerStyles.beforeLeft}> <Circle color="twitter"><Icon name='twitter' /></Circle></div>
-          <Circle color="" margin="margin-l"><Icon name='bell-o' /></Circle>
-          <Circle color="" margin="margin-l"><Icon name='envelope-o' /></Circle>
-          <Circle color="" margin="margin-l"><Icon name='hashtag' /></Circle>
+          <div className={headerStyles.beforeLeft}> <Circle type="twitter"><Icon name='twitter' /></Circle></div>
+          <Circle type="normalL"><Icon name='bell-o' /></Circle>
+          <Circle type="normalL"><Icon name='envelope-o' /></Circle>
+          <Circle type="normalL"><Icon name='hashtag' /></Circle>
         </div>
         <div className={headerStyles.logo}> <Icon name='twitter' size='2x'  /></div>
         <div className={headerStyles.rightContent}>
           <Search/>
-          <Circle margin="margin-rl"><img src="http://icons.iconarchive.com/icons/designbolts/despicable-me-2/32/Minion-Amazed-icon.png"/></Circle>
+          <Circle type="normalRL"><img src="http://icons.iconarchive.com/icons/designbolts/despicable-me-2/32/Minion-Amazed-icon.png"/></Circle>
         </div>
       </div>
     );
