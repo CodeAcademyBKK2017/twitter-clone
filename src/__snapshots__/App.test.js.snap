@@ -89,7 +89,7 @@ exports[`App component App: renders correctly 1`] = `
               width="22px"
             >
               <path
-                d="M768 528h-240v240h-32v-240h-240v-32h240v-240h32v240h240v32z"
+                d="M896 384v-32h-224v-224h-32v224h-256v-224h-32v224h-224v32h224v256h-224v32h224v224h32v-224h256v224h32v-224h224v-32h-224v-256h224zM640 640h-256v-256h256v256z"
               />
             </svg>
           </div>
