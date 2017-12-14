@@ -8,9 +8,27 @@
     justify-content: center;
     margin-left: 10px;
 }
+.circle:hover {
+    background-color: red;
+}
+
+/* active: change to grey */
+.circle:active {
+    background-color: gray;
+}
 
 .background_sky{
     border: 1px solid #80A8CC;
     color: white;
     background-color: #80A8CC;
 }
+
+/*
+
+height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    border-bottom: 2px solid red;
+
+*/

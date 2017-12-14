@@ -17,9 +17,11 @@ class Header extends Component {
             </Circle>
           </div>
           <div className={headerStyle.head_second_icon}>
-            <Circle circle={circleStyle.circle}>
-              <Icon icon="ios-notifications-outline" fontSize="30px"/>
-            </Circle>
+            <div>
+              <Circle circle={circleStyle.circle}>
+                <Icon icon="ios-notifications-outline" fontSize="30px"/>
+              </Circle>
+            </div>
             <Circle circle={circleStyle.circle}>
               <Icon icon="ios-mail-outline" fontSize="30px"/>
             </Circle>
