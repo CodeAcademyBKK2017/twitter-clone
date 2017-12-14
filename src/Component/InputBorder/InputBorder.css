@@ -9,6 +9,8 @@
 
 .Input{
     border: 1px solid white;
+    width: 200px;
+    height: 20px;
 }
 
 .Color {
