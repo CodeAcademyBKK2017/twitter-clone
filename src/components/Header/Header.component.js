@@ -20,7 +20,7 @@ class Header extends Component {
 					<div className={HeaderStyle.buttonContainer}>
 						<Circle iconName="ios-notifications-outline"/>
 						<Circle iconName="ios-mail-outline"/>
-						<Circle iconName="ios-add"/>
+						<Circle iconName="ios-grid-outline"/>
 						<Circle/>
 					</div>
 				</div>
