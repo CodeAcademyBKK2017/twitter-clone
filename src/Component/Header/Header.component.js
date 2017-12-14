@@ -12,11 +12,15 @@ class Header extends Component {
       <div className={className(inputStyles.header, inputStyles.shadow)}>
 
         <div className={className(inputStyles.flex4, inputStyles.contentLeft)}>
+        
           <CircleBG iconName={'logo-twitter'} color='white'/>
+
           <div className={inputStyles.divide}/>
+
           <CircleNoneBG color='#5f5f5f' iconName={'ios-notifications'}/>
           <CircleNoneBG color='#5f5f5f' iconName={'ios-mail'}/>
           <CircleNoneBG color='#5f5f5f' iconName={'ios-grid-outline'}/>
+
         </div>
 
         <div className={inputStyles.flex1}><Icon fontSize='35px' color='#1e90ff' icon='logo-twitter'/></div>

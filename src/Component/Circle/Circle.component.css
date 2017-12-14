@@ -21,6 +21,15 @@
     height: 60px;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid transparent;
+}
+
+div.boxCircle:hover{
+    border-bottom: 1px solid #858585;
+}
+
+div.boxCircle:active{
+    border-bottom: 1px solid #1e90ff;
 }
 
 .iconColorWhite {
