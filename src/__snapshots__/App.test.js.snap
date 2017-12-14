@@ -35,7 +35,7 @@ exports[`App component App: renders correctly 1`] = `
       className="center-head"
     >
       <div
-        className={undefined}
+        className=""
       />
     </div>
     <div

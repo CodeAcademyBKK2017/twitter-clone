@@ -30,7 +30,17 @@ class Header extends Component {
             <Icon name="twitter" size="2x"/>
           </Circle>
         </div>
-        <div className="right-head"/>
+        <div className="right-head">
+          <div className="right-head-text">
+            <input type="text"/>
+            <Icon name="search"/>
+          </div>
+          <div className="right-head-icon">
+            <Circle circle="circle">
+              <Icon name="user-o" />
+            </Circle>
+          </div>
+        </div>
       </div>
     );
   }

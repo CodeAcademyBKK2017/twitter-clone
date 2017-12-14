@@ -22,6 +22,24 @@
 }
 .right-head{
     flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.right-head-text {
+    padding: 5px;
+    border: 1px solid gray;
+    display: inline-flex;
+    border-radius: 10px;
+}
+.right-head-text > input {
+    border: none;
+    outline: none;
+    background: none;
+    width: 20vw;
+}
+.right-head-icon {
+    padding-right: 10px;
 }
 
 .head-first-icon {
