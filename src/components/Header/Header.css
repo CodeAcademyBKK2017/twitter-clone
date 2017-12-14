@@ -7,22 +7,22 @@
   align-items: center;
 }
 
-.header .left-content {
+.header .leftContainer {
   flex: 4;
 }
 
-.header .right-content {
+.header .rightContainer {
   flex: 4;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.header .logo-container {
+.header .logoContainer {
   flex: 1;
 }
 
-.header .logo-container .logo {
+.header .logoContainer .logo {
   color: #80A8CC;
 }
 

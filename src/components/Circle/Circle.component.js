@@ -1,4 +1,4 @@
-import './Circle.css';
+import CircleStyles from  './Circle.css';
 import React, {Component} from 'react';
 import {Icon} from 'react-fa';
 import PropTypes from 'prop-types';
@@ -10,7 +10,7 @@ class Circle extends Component {
     const element = children || <Icon name={iconName} />;
 
     return (
-      <div className={`circle ${opaque ? 'circle-opaque' : ''}`}>
+      <div className={`${CircleStyles.circle} ${opaque ? CircleStyles.circleOpaque : ''}`}>
         {element}
       </div>
     );

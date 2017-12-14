@@ -10,7 +10,7 @@
     border: 1px solid #f4f0ea;
     box-sizing: border-box;
 }
-.circle.circle-opaque {
+.circle.circleOpaque {
     color: #FFFFFF;
     background: #80A8CC;
     border: 1px solid #80A8CC;

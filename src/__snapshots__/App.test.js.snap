@@ -3,48 +3,48 @@
 exports[`App component App: renders correctly 1`] = `
 <div>
   <div
-    className="header panel"
+    className="undefined undefined"
   >
     <div
-      className="left-content"
+      className={undefined}
     >
       <div
-        className="brand"
+        className={undefined}
       >
         <div
-          className="circle circle-opaque"
+          className="undefined undefined"
         />
       </div>
       <ul
-        className="nav"
+        className={undefined}
       >
         <li
-          className="active"
+          className={undefined}
         >
           <div
-            className="circle "
+            className="undefined "
           />
         </li>
         <li>
           <div
-            className="circle "
+            className="undefined "
           />
         </li>
         <li>
           <div
-            className="circle "
+            className="undefined "
           />
         </li>
       </ul>
     </div>
     <div
-      className="logo-container text-center"
+      className="undefined undefined"
     />
     <div
-      className="right-content"
+      className={undefined}
     >
       <div
-        className="search"
+        className={undefined}
       >
         <input
           name="search"
@@ -52,10 +52,10 @@ exports[`App component App: renders correctly 1`] = `
         />
       </div>
       <div
-        className="profile"
+        className={undefined}
       >
         <div
-          className="circle "
+          className="undefined "
         >
           <img
             height="24"
@@ -67,13 +67,13 @@ exports[`App component App: renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="container"
+    className={undefined}
   >
     <div
-      className="menu panel"
+      className="undefined undefined"
     />
     <div
-      className="content panel"
+      className="undefined undefined"
     />
   </div>
 </div>
