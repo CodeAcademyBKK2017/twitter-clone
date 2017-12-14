@@ -1,3 +1,4 @@
+import './Search.css';
 import React, {Component} from 'react';
 import {Icon} from 'react-fa';
 
@@ -14,5 +15,3 @@ class Search extends Component {
 }
 
 export default Search;
-
-

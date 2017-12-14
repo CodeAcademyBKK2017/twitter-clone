@@ -10,7 +10,7 @@ class App extends Component {
         <Header />
         <div className="container">
           <div className="menu panel" />
-         <div className="content panel" />
+          <div className="content panel" />
         </div>
       </div>
     );

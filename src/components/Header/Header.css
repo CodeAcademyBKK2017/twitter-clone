@@ -54,26 +54,3 @@ ul.nav li.active {
 .profile {
   padding: 12px;
 }
-.search {
-  flex: 0.5;
-  height: 35px;
-  border: 1px solid #f2eee8;
-  border-radius: 14px;
-  
-  display: flex;
-  align-items: center;
-  padding: 10px 12px;
-  box-sizing: border-box;
-}
-.search input[name="search"] {
-  border: none;
-  /* padding: 10px 0px; */
-  background: transparent;
-  padding-right: 30px;
-  width: 100%;
-
-  box-sizing: border-box;
-}
-.search .fa {
-  color: #f2eee8;
-}
