@@ -2,10 +2,10 @@
 
 exports[`Circle component Circle: renders correctly 1`] = `
 <div
-  className="sperateBTN isFlex Center"
+  className=""
 >
   <div
-    className="cirBTN isFlex Center"
+    className=""
   />
 </div>
 `;

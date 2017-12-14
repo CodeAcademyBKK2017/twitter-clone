@@ -1,7 +1,7 @@
 import HeaderCSS from './header.style.css';
 import AppCss from '../../App.css';
 import Circle from '../circles/circle.component';
-import {Icon} from 'react-fa';
+import Icon from 'react-ionicons';
 import React, {Component} from 'react';
 import Search from '../searchs/search.component';
 import className from 'classname';
@@ -11,20 +11,20 @@ class Header extends Component {
     return (
       <div className={className(HeaderCSS.headerTwit, AppCss.shadowStyle)} >
         <div className={className(HeaderCSS.leftContain, AppCss.isFlex)}>
-          <div className={className(HeaderCSS.leftConLogo, AppCss.Center, AppCss.isFlex)}><Icon name='twitter' className='logoLeft' /></div>
-          <div className={className(HeaderCSS.btngroup, AppCss.isFlex)}>
+          <div className={className(HeaderCSS.leftConLogo, AppCss.Center, AppCss.isFlex)}><Icon icon='logo-twitter' fontSize='15px' color='white' className={`${HeaderCSS.logoLeft}`} /></div>
+          <div className={className(HeaderCSS.btnGroup, AppCss.isFlex)}>
             <Circle>
-              <Icon name='bell-o'/>
+              <Icon icon='ios-notifications-outline'/>
             </Circle>
             <Circle>
-              <Icon name='envelope-o'/>
+              <Icon icon='ios-mail-outline'/>
             </Circle>
             <Circle>
-              <Icon name='hashtag'/>
+              #
             </Circle>
           </div>
         </div>
-        <div className={className(HeaderCSS.ConLogo, AppCss.Center, AppCss.isFlex)}><Icon name='twitter' className='Logo' size='2x'/></div>
+        <div className={className(HeaderCSS.ConLogo, AppCss.Center, AppCss.isFlex)}><Icon icon='logo-twitter' color='rgb(29, 161, 242)'className={`${HeaderCSS.Logo}`} size='2x'/></div>
         <div className={className(HeaderCSS.rightContain, AppCss.isFlex)}>
           <Search/>
           <Circle>

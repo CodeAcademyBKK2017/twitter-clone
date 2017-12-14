@@ -1,5 +1,4 @@
 .Logo{
-    color:rgb(29, 161, 242);
     font-size: 35px;
   }
   .ConLogo{
@@ -17,14 +16,12 @@
   }
   .leftConLogo{
     height: 60px;
-    width: 50px;
     border-right: 1px solid lightgrey;
     flex:1;
   }
   .logoLeft{
     border: 5px solid rgb(29, 161, 242);
     border-radius: 50%;
-    color:white;
     background-color: rgb(29, 161, 242);
   }
   .btnGroup{
