@@ -11,7 +11,7 @@ class Header extends Component {
     return (
       <div className={className(HeaderCSS.headerTwit, AppCss.shadowStyle)} >
         <div className={className(HeaderCSS.leftContain, AppCss.isFlex)}>
-          <div className={className(HeaderCSS.leftConLogo, AppCss.Center, AppCss.isFlex)}><Icon icon='logo-twitter' fontSize='15px' color='white' className={`${HeaderCSS.logoLeft}`} /></div>
+          <div className={className(HeaderCSS.leftConLogo, AppCss.Center, AppCss.isFlex)}><Icon icon='logo-twitter' fontSize='10px' color='white' className={`${HeaderCSS.logoLeft}`} /></div>
           <div className={className(HeaderCSS.btnGroup, AppCss.isFlex)}>
             <Circle>
               <Icon icon='ios-notifications-outline'/>
@@ -20,7 +20,7 @@ class Header extends Component {
               <Icon icon='ios-mail-outline'/>
             </Circle>
             <Circle>
-              #
+              <Icon icon='ios-grid-outline'/>
             </Circle>
           </div>
         </div>
