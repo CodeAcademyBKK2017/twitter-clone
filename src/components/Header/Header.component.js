@@ -26,7 +26,7 @@ class Header extends Component {
 				</div>
 
 				<div className={HeaderStyle.logoContent}>
-					<Icon className={HeaderStyle.twitterLogo} icon="logo-twitter" size="2x"/>
+					<Icon className={HeaderStyle.twitterLogo} icon="logo-twitter" fontSize="35px" color="#80A8CC"/>
 				</div>
 
 				<div className={HeaderStyle.rightContent}>
