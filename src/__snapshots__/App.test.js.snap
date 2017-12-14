@@ -2,7 +2,7 @@
 
 exports[`App component App: renders correctly 1`] = `
 <div
-  className="app"
+  className={undefined}
 >
   <div
     className={undefined}
@@ -70,13 +70,13 @@ exports[`App component App: renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="app-body"
+    className={undefined}
   >
     <div
-      className="app-header2 shadow white-box"
+      className="undefined undefined undefined"
     />
     <div
-      className="app-body2 shadow white-box"
+      className="undefined undefined undefined"
     />
   </div>
 </div>

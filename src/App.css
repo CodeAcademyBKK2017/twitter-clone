@@ -5,15 +5,15 @@
   flex-direction: column;
   background-color: #e6ecf0;
 }
-.app-body{
+.appBody{
   padding-top: 80px;
   padding-bottom: 20px;
   width: 50vw;
 }
-.app-header2{
+.header2{
   height: 50px;
 }
-.app-body2{
+.appBody2{
   align-self: center;
   margin-top: 20px; 
   height: 1000px;
@@ -21,7 +21,7 @@
 .shadow{
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
 }
-.white-box{
+.whiteBox{
   background-color: white;
 }
 
