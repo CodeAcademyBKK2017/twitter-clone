@@ -10,6 +10,15 @@ class Header extends Component {
   render () {
     return (
       <div className={className(inputStyles.header, inputStyles.shadow)}>
+        <div className={className(inputStyles.sidemenu)}>
+          <div className={inputStyles.borderStyle}>
+            <input className={inputStyles.inputStyle} placeholder="Search"/>
+            <Icon className={inputStyles.colorStyle} icon='ios-search'/>
+          </div>
+          <div className={inputStyles.Name}>
+            Rung
+          </div>
+        </div>
         <div className={className(inputStyles.flex3)}>
           <Icon icon="ios-menu"/>
         </div>

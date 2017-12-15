@@ -10,6 +10,24 @@ exports[`App component App: renders correctly 1`] = `
     <div
       className=""
     >
+      <svg
+        className="sc-bdVaJa fUuvxv"
+        fill="#000000"
+        height="22px"
+        onClick={undefined}
+        rotate={0}
+        style={Object {}}
+        viewBox="0 0 1024 1024"
+        width="22px"
+      >
+        <path
+          d="M128 288h768v64h-768v-64z M128 480h768v64h-768v-64z M128 672h768v64h-768v-64z"
+        />
+      </svg>
+    </div>
+    <div
+      className=""
+    >
       <div
         className={undefined}
       >
