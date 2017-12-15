@@ -10,7 +10,10 @@ class Header extends Component {
   render () {
     return (
       <div className={className(inputStyles.header, inputStyles.shadow)}>
-
+          
+        <div className={className(inputStyles.show)}>
+          <Icon icon="ios-menu"/>
+        </div>
         <div className={className(inputStyles.flex4, inputStyles.contentLeft)}>
         
           <CircleBG iconName={'logo-twitter'} color='white'/>

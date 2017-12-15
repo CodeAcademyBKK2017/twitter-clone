@@ -27,7 +27,12 @@
     flex: 4;
     align-items: center;
 }
-
+.show{
+    display: none;
+    flex: 0;
+    align-items: center;
+   
+}
 .divide{
     height: 60px;
     width: 1px;
@@ -44,4 +49,17 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+@media (max-width:767px) {
+    .flex4{
+        display: none;   
+    }
+    .show{
+        color: black;
+        display: flex;
+        border-right: 1px solid #e3e3e3;
+        padding: 15px;
+    }
+    
 }

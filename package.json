@@ -76,7 +76,8 @@
       "src/**/*.{js,jsx,mjs}"
     ],
     "coveragePathIgnorePatterns": [
-      "/node_modules/", "/src/index.js"
+      "/node_modules/",
+      "/src/index.js"
     ],
     "setupFiles": [
       "<rootDir>/config/polyfills.js"

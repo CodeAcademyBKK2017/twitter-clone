@@ -4,9 +4,10 @@
 }
   
 .BoxTitle.Shadow{
-    height: 60px;
+    min-height: 60px;
     background-color: rgb(255, 255, 255);
     display: flex;
+    
 }
 
 .BoxContent.Shadow{
@@ -48,4 +49,12 @@ div.boxHeaderContent:active{
 div.circle:active{
     background-color: #1e90ff;
     border-color: #1e90ff;
+}
+@media (max-width:767px) {
+    .Box{
+        padding: 80px 3% 20px;
+    }
+    .BoxTitle.Shadow{
+        flex-wrap: wrap;
+    }
 }
