@@ -93,6 +93,7 @@
     background-color: whitesmoke;
     box-shadow: 2px 5px 8px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
     padding: 20px;
+    display: none;
 }
 .sideMenu__name {
     position: absolute;
@@ -111,6 +112,9 @@
         display: none;
     }
     .headerMobile {
+        display: block;
+    }
+    .sideMenu__panel {
         display: block;
     }
 }
