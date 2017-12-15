@@ -230,6 +230,11 @@ exports[`App component App: renders correctly 1`] = `
           </div>
            
         </div>
+        <div
+          className={undefined}
+        >
+           Made By : Ben
+        </div>
       </div>
     </div>
   </div>

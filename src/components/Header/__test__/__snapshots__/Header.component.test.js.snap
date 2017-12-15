@@ -227,6 +227,11 @@ exports[`Header group Test Header: snapshot test 1`] = `
         </div>
          
       </div>
+      <div
+        className={undefined}
+      >
+         Made By : Ben
+      </div>
     </div>
   </div>
 </div>
