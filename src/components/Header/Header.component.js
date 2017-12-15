@@ -6,21 +6,21 @@ import Circle from '../Circle/Circle.component';
 import Search from '../Search/Search.component';
 
 class Header extends Component {
+  state = {
+    menuVisibility: false
+  }
+  toggleMenu = () => {
+    this.setState({menuVisibility: !this.state.menuVisibility});
+  }
   render () {
     return (
       <div>
         <div className={classNames(headerStyle.headerMobile)}>
-          <div className={classNames(headerStyle.headerMobile__menuIconContainer)}>
+          <div onClick={this.toggleMenu} className={classNames(headerStyle.headerMobile__menuIconContainer)}>
             <Ionicon icon="ios-menu" fontSize="22px" className={classNames(headerStyle.headerMobile__menuIcon)} />
           </div>
           <div className={classNames(headerStyle.headerMobile__logoContainer)}>
-            <center><Ionicon icon="logo-twitter" fontSize="35px" color="#81a9cb" /></center>
-          </div>
-        </div>
-        <div className={classNames(headerStyle.sideMenu__panel)}>
-          <Search />
-          <div className={classNames(headerStyle.sideMenu__name)}>
-            Teeraphong Chaichalermpreecha
+            <Ionicon icon="logo-twitter" fontSize="35px" color="#81a9cb" />
           </div>
         </div>
         <div className={classNames(headerStyle.header)}>
@@ -44,6 +44,12 @@ class Header extends Component {
             <div className={classNames(headerStyle.circleContainer, headerStyle.circleContainer__user)}>
               <Circle iconName="ios-ionitron-outline" />
             </div>
+          </div>
+        </div>
+        <div className={classNames(headerStyle.sideMenu__panel, {[headerStyle.offScreen]: !this.state.menuVisibility})}>
+          <Search />
+          <div className={classNames(headerStyle.sideMenu__name)}>
+            Teeraphong Chaichalermpreecha
           </div>
         </div>
       </div>
