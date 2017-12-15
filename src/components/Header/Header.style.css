@@ -37,3 +37,26 @@
     padding-left: 10px;
     border-right: 2px solid rgba(0,0,0,0.08); 
 }
+.appHeaderMobile{
+  display: none;
+}
+@media all and (max-width: 768px){
+    .appHeader{
+        display: none;
+    }
+    .appHeaderMobile{
+        position: fixed;
+        display:flex;
+        justify-content: space-around;
+        height: 60px;
+        left:10px;
+        right:10px;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
+        background-color: white;
+    }
+}
+.sidemenu{
+    display: flex;
+    align-items: center;
+    padding-left : 10px;
+}
