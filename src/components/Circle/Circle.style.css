@@ -13,6 +13,7 @@
 
 .circle:hover {
 	background: #cbccce;
+	cursor: pointer;
 }
 
 .circle:active {
