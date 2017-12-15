@@ -22,3 +22,10 @@ body {
 .textRight {
   text-align: right;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

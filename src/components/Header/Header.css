@@ -1,4 +1,4 @@
-.header {
+.header, .headerMobile {
   position: fixed;
   top: 0;
   width: 100%;
@@ -7,28 +7,27 @@
   align-items: center;
 }
 
-.header .leftContainer {
+.headerMobile {
+  display: none;
+}
+
+ .leftContainer {
   flex: 4;
 }
 
-.header .rightContainer {
+ .rightContainer {
   flex: 4;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.header .logoContainer {
+ .logoContainer {
   flex: 1;
 }
 
-.header .logoContainer .logo {
+ .logoContainer .logo {
   color: #80A8CC;
-}
-
-.header .logo .fa {
-  color: #80A8CC;
-  font-size: 24px;
 }
 
 .brand {
@@ -57,4 +56,18 @@ ul.nav li:hover {
 
 .profile {
   padding: 12px;
+}
+
+.menuButton {
+  display: inline-flex;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: none;
+  }
+  .headerMobile {
+    display: flex;
+  }
 }
