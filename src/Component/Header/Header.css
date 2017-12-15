@@ -11,19 +11,21 @@
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
 }
 
-/* .iconLogo {
-    color: #80A8CC;
-} */
-
 .flex1{
     display: flex;
     flex: 1;
     justify-content: center;
     align-items: center;
-  }
+}
   
 .flex4{
     display: flex;
+    flex: 4;
+    align-items: center;
+}
+
+.flex4Hide{
+    display: none;
     flex: 4;
     align-items: center;
 }
@@ -32,6 +34,11 @@
     height: 60px;
     width: 1px;
     background-color: rgb(240, 240, 240);
+}
+
+.itemsHeader{
+    display: flex;
+    flex-direction: row;
 }
 
 .contentLeft{
@@ -44,4 +51,18 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .contentRight{
+        display: none;
+    }
+
+    .itemsHeader{
+        display: none;
+    }
+
+    .flex4Hide{
+        display: flex;
+    }
 }

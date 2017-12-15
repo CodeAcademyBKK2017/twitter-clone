@@ -24,15 +24,28 @@
     border-bottom: 1px solid transparent;
 }
 
-div.boxCircle:hover{
+.boxCircleMain .boxCircle{
+    display: flex;
+}
+
+.boxCircleHide{
+    display: none;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid transparent;
+}
+
+.boxCircle:hover{
     border-bottom: 1px solid #858585;
 }
 
-div.boxCircle:active{
+.boxCircle:active{
     border-bottom: 1px solid #1e90ff;
 }
 
-div.circle:active{
+.circle:active{
     background-color: #1e90ff;
     border-color: #1e90ff;
 }
@@ -42,3 +55,12 @@ div.circle:active{
 }
 
 
+@media screen and (max-width: 767px) {
+    .boxCircleHide{
+        display: flex;
+    }
+
+    .boxCircleMain{
+        display: none;
+    }
+}

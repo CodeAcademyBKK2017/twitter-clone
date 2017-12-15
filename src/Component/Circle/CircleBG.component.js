@@ -7,8 +7,10 @@ import className from 'classname';
 class CircleBG extends Component {
   render () {
     return (
-      <div className={inputStyles.boxCircle}>
-        <div className={className(inputStyles.circle, inputStyles.circleColorBlue)}><Icon className={inputStyles.iconColorWhite} color={`${this.props.color}`} icon={`${this.props.iconName}`}/></div>
+      <div className={className(inputStyles.boxCircle, inputStyles.boxCircleMain)}>
+        <div className={className(inputStyles.circle, inputStyles.circleColorBlue)}>
+          <Icon className={inputStyles.iconColorWhite} color={`${this.props.color}`} icon={`${this.props.iconName}`}/>
+        </div>
       </div>
     );
   }

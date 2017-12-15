@@ -11,7 +11,7 @@ exports[`App component App: renders correctly 1`] = `
       className=""
     >
       <div
-        className={undefined}
+        className=""
       >
         <div
           className=""
@@ -33,72 +33,98 @@ exports[`App component App: renders correctly 1`] = `
         </div>
       </div>
       <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <svg
+            className="sc-bdVaJa fUuvxv"
+            fill="white"
+            height="22px"
+            onClick={undefined}
+            rotate={0}
+            style={Object {}}
+            viewBox="0 0 1024 1024"
+            width="22px"
+          >
+            <path
+              d="M128 768h768v-85.332h-768v85.332zM128 554.668h768v-85.334h-768v85.334zM128 256v85.33h768v-85.33h-768z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
         className={undefined}
       />
       <div
         className={undefined}
       >
         <div
-          className=""
+          className={undefined}
         >
-          <svg
-            className="sc-bdVaJa fUuvxv"
-            fill="#5f5f5f"
-            height="22px"
-            onClick={undefined}
-            rotate={0}
-            style={Object {}}
-            viewBox="0 0 1024 1024"
-            width="22px"
+          <div
+            className=""
           >
-            <path
-              d="M415.6 800c0 52 43.2 95.8 96.2 95.8s96.2-43.8 96.2-95.8h-192.4z M747.8 458.4c0-198-98-265.6-189.8-281 0-1.2 0.2-2.2 0.2-3.4 0-25.4-20.6-46-46-46s-46 20.6-46 46c0 1.2 0 2.4 0.2 3.6-91.8 15.6-189.8 83.8-189.8 281.4-0.4 231-45.4 245-116.6 309h704c-70.8-64-116.2-78.2-116.2-309.6z"
-            />
-          </svg>
+            <svg
+              className="sc-bdVaJa fUuvxv"
+              fill="#5f5f5f"
+              height="22px"
+              onClick={undefined}
+              rotate={0}
+              style={Object {}}
+              viewBox="0 0 1024 1024"
+              width="22px"
+            >
+              <path
+                d="M415.6 800c0 52 43.2 95.8 96.2 95.8s96.2-43.8 96.2-95.8h-192.4z M747.8 458.4c0-198-98-265.6-189.8-281 0-1.2 0.2-2.2 0.2-3.4 0-25.4-20.6-46-46-46s-46 20.6-46 46c0 1.2 0 2.4 0.2 3.6-91.8 15.6-189.8 83.8-189.8 281.4-0.4 231-45.4 245-116.6 309h704c-70.8-64-116.2-78.2-116.2-309.6z"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-      <div
-        className={undefined}
-      >
         <div
-          className=""
+          className={undefined}
         >
-          <svg
-            className="sc-bdVaJa fUuvxv"
-            fill="#5f5f5f"
-            height="22px"
-            onClick={undefined}
-            rotate={0}
-            style={Object {}}
-            viewBox="0 0 1024 1024"
-            width="22px"
+          <div
+            className=""
           >
-            <path
-              d="M896 768v-484.4l-262.2 199.6 136.2 154.8-4 4-157.8-139.2-96.2 73.2-96.2-73.2-157.8 139.2-4-4 136-154.8-262-199.2v484z M879.4 256h-735.4l368 279.8z"
-            />
-          </svg>
+            <svg
+              className="sc-bdVaJa fUuvxv"
+              fill="#5f5f5f"
+              height="22px"
+              onClick={undefined}
+              rotate={0}
+              style={Object {}}
+              viewBox="0 0 1024 1024"
+              width="22px"
+            >
+              <path
+                d="M896 768v-484.4l-262.2 199.6 136.2 154.8-4 4-157.8-139.2-96.2 73.2-96.2-73.2-157.8 139.2-4-4 136-154.8-262-199.2v484z M879.4 256h-735.4l368 279.8z"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-      <div
-        className={undefined}
-      >
         <div
-          className=""
+          className={undefined}
         >
-          <svg
-            className="sc-bdVaJa fUuvxv"
-            fill="#5f5f5f"
-            height="22px"
-            onClick={undefined}
-            rotate={0}
-            style={Object {}}
-            viewBox="0 0 1024 1024"
-            width="22px"
+          <div
+            className=""
           >
-            <path
-              d="M896 384v-32h-224v-224h-32v224h-256v-224h-32v224h-224v32h224v256h-224v32h224v224h32v-224h256v224h32v-224h224v-32h-224v-256h224zM640 640h-256v-256h256v256z"
-            />
-          </svg>
+            <svg
+              className="sc-bdVaJa fUuvxv"
+              fill="#5f5f5f"
+              height="22px"
+              onClick={undefined}
+              rotate={0}
+              style={Object {}}
+              viewBox="0 0 1024 1024"
+              width="22px"
+            >
+              <path
+                d="M896 384v-32h-224v-224h-32v224h-256v-224h-32v224h-224v32h224v256h-224v32h224v224h32v-224h256v224h32v-224h224v-32h-224v-256h224zM640 640h-256v-256h256v256z"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -168,6 +194,9 @@ exports[`App component App: renders correctly 1`] = `
         </div>
       </div>
     </div>
+    <div
+      className=""
+    />
   </div>
   <div
     className={undefined}

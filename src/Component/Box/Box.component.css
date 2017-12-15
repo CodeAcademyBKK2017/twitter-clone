@@ -4,19 +4,17 @@
 }
   
 .BoxTitle.Shadow{
-    height: 60px;
     background-color: rgb(255, 255, 255);
     display: flex;
 }
 
 .BoxContent.Shadow{
-height: 1000px;
-margin-top: 20px;
-background-color: rgb(255, 255, 255);
+    height: 1000px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
 }
 
 .Shadow{
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
 }
 
@@ -26,6 +24,7 @@ background-color: rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 60px;
 }
 
 .textHeaderTitle{
@@ -37,15 +36,25 @@ background-color: rgb(255, 255, 255);
     font-size: 120%;
 }
 
-div.boxHeaderContent:hover{
-    border-bottom: 1px solid #858585;
+.boxHeaderContent:hover{
+    border-bottom: 2px solid #858585;
 }
 
-div.boxHeaderContent:active{
-    border-bottom: 1px solid #1e90ff;
+.boxHeaderContent:active{
+    border-bottom: 2px solid #1e90ff;
 }
 
-div.circle:active{
+.circle:active{
     background-color: #1e90ff;
     border-color: #1e90ff;
+}
+
+@media screen and (max-width: 767px) {
+    .BoxTitle.Shadow{
+        flex-wrap: wrap;
+    }
+
+    .Box{
+        padding: 80px 2% 20px;
+    }
 }
