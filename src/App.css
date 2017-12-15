@@ -46,7 +46,106 @@
 }
 
 .second_container {
-    height: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.box_tweets {
+    flex: 3;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 4px solid transparent;
+    border-bottom: 4px solid #80A8CC;
+}
+.box_tweets:hover {
+    border-bottom: 4px solid #80A8CC;
+}
+.box_tweets_item1{
+    align-items: center;
+    font-size: .6em;
+    color: lightgray;
+}
+.box_tweets_item2{
+    align-items: center;
+    font-size: .7em;
+    font-weight: bold;
+    color: darkgrey;
+}
+
+.box_photos {
+    flex: 3;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 4px solid transparent;
+}
+.box_photos:hover {
+    border-bottom: 4px solid #80A8CC;
+}
+.box_photos_item1{
+    align-items: center;
+    font-size: .6em;
+    color: lightgray;
+}
+.box_photos_item2{
+    align-items: center;
+    font-size: .7em;
+    font-weight: bold;
+    color: darkgrey;
+}
+
+.box_following {
+    flex: 3;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 4px solid transparent;
+}
+.box_following:hover {
+    border-bottom: 4px solid #80A8CC;
+}
+.box_following_item1{
+    align-items: center;
+    font-size: .6em;
+    color: lightgray;
+}
+.box_following_item2{
+    align-items: center;
+    font-size: .7em;
+    font-weight: bold;
+    color: darkgrey;
+}
+
+.box_followers {
+    flex: 3;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 4px solid transparent;
+}
+.box_followers:hover {
+    border-bottom: 4px solid #80A8CC;
+}
+.box_followers_item1{
+    align-items: center;
+    font-size: .6em;
+    color: lightgray;
+}
+.box_followers_item2{
+    align-items: center;
+    font-size: .7em;
+    font-weight: bold;
+    color: darkgrey;
 }
 
 .content {
