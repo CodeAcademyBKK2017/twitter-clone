@@ -3,10 +3,15 @@
 	left: 0;
 	right: 0;
 	height: 60px;
+}
 
+.mainContainer {
 	display: flex;
-	/* justify-content: space-between; */
 	align-items: center;
+}
+
+.mobileContainer {
+	display: none;
 }
 
 .leftContent {
@@ -51,4 +56,15 @@
 
 .avatarContainer {
 	padding: 10px;
+}
+
+@media all and (max-width: 768px) {
+	.mainContainer {
+		display: none;
+	}
+
+	.mobileContainer {
+		display: flex;
+		align-items: center;
+	}
 }
