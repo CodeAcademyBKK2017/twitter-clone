@@ -27,12 +27,12 @@
 }
 .box_tweets_item1{
     align-items: center;
-    font-size: .6em;
+    font-size: .9vw;
     color: lightgray;
 }
 .box_tweets_item2{
     align-items: center;
-    font-size: .7em;
+    font-size: 1vw;
     font-weight: bold;
     color: darkgrey;
 }
@@ -51,12 +51,12 @@
 }
 .box_photos_item1{
     align-items: center;
-    font-size: .6em;
+    font-size: .9vw;
     color: lightgray;
 }
 .box_photos_item2{
     align-items: center;
-    font-size: .7em;
+    font-size: 1vw;
     font-weight: bold;
     color: darkgrey;
 }
@@ -75,12 +75,12 @@
 }
 .box_following_item1{
     align-items: center;
-    font-size: .6em;
+    font-size: .9vw;
     color: lightgray;
 }
 .box_following_item2{
     align-items: center;
-    font-size: .7em;
+    font-size: 1vw;
     font-weight: bold;
     color: darkgrey;
 }
@@ -99,12 +99,12 @@
 }
 .box_followers_item1{
     align-items: center;
-    font-size: .6em;
+    font-size: .9vw;
     color: lightgray;
 }
 .box_followers_item2{
     align-items: center;
-    font-size: .7em;
+    font-size: 1vw;
     font-weight: bold;
     color: darkgrey;
 }
