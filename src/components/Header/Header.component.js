@@ -14,7 +14,7 @@ class Header extends Component {
             <Ionicon icon="ios-menu" fontSize="22px" className={classNames(headerStyle.headerMobile__menuIcon)} />
           </div>
           <div className={classNames(headerStyle.headerMobile__logoContainer)}>
-            <Ionicon icon="logo-twitter" fontSize="35px" color="#81a9cb" />
+            <center><Ionicon icon="logo-twitter" fontSize="35px" color="#81a9cb" /></center>
           </div>
         </div>
         <div className={classNames(headerStyle.header)}>
