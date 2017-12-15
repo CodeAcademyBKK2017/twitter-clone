@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cell: Snapshot test 1`] = `
+<div
+  className=""
+>
+  <div
+    className=""
+  >
+    <div
+      className=""
+    >
+      tweets
+    </div>
+    <div
+      className=""
+    >
+      200
+    </div>
+  </div>
+  <div
+    className=""
+  >
+    <div
+      className=""
+    >
+      photos/videos
+    </div>
+    <div
+      className=""
+    >
+      200
+    </div>
+  </div>
+  <div
+    className=""
+  >
+    <div
+      className=""
+    >
+      following
+    </div>
+    <div
+      className=""
+    >
+      200
+    </div>
+  </div>
+  <div
+    className=""
+  >
+    <div
+      className=""
+    >
+      followers
+    </div>
+    <div
+      className=""
+    >
+      1m
+    </div>
+  </div>
+</div>
+`;
