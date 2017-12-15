@@ -10,6 +10,8 @@ class SideMenu extends Component {
 					<SearchBar isInSideMenu={true}/>
 				</div>
 				
+				<div className={SideMenuStyle.menuContainer} />
+
 				<div className={SideMenuStyle.creditContainer}>
 					<b>Made by: Chong</b>
 				</div>

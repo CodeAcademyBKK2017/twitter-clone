@@ -8,30 +8,25 @@
 	width: 80vw;
 	height: calc(100vh - 100%);
 
-	/* display: flex;
+	display: flex;
 	flex-direction: column;
-	justify-content: space-between; */
+	align-items: stretch;
 }
 
 .searchBarContainer {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-
 	padding: 10px;
 }
 
+.menuContainer {
+	flex: 1;
+}
+
 .creditContainer {
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	
 	padding: 10px;
 
 	border-top: solid 1px rgba(128, 128, 128, 0.5);
 	color: gray;
+	text-align: center;
 }
 
 @media all and (max-width: 768px) {
