@@ -26,7 +26,7 @@ class Header extends Component {
           <div className={headerStyles.sidemenu} >
             <Icon icon='ios-menu' fonSize="50px" color="#00aced" />
           </div>
-          <div className={headerStyles.logo}>
+          <div className={headerStyles.mobileLogo}>
             <Icon icon='logo-twitter' fonSize="50px" color="#00aced" />
           </div>
         </div>
