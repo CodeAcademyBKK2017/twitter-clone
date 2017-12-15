@@ -5,8 +5,17 @@ import Icon from 'react-ionicons';
 import React, {Component} from 'react';
 import Search from '../searchs/search.component';
 import className from 'classname';
+import SideMenu from '../sidebarmenu/sidebarmenu.component';
+
 
 class Header extends Component {
+  state = {
+    sideBar: false
+  }
+  openSide = () => {
+    this.state.sideBar ? this.setState({sideBar: false}) : this.setState({sideBar: true});
+  }
+
   render () {
     return (<div>
       <div className={className(HeaderCSS.headerTwit, AppCss.shadowStyle)} >
@@ -34,14 +43,19 @@ class Header extends Component {
       </div>
       <div className={className(HeaderCSS.headerMobile, AppCss.shadowStyle)}>
         <div className={className(HeaderCSS.leftContain, AppCss.isFlex)}>
-          <div className={className(HeaderCSS.leftConLogoMobile, AppCss.Center, AppCss.isFlex)}>
+          <div onClick={this.openSide} className={className(HeaderCSS.leftConLogoMobile, AppCss.Center, AppCss.isFlex)}>
             <Icon icon='ios-menu' />
           </div>
           <div className={className(HeaderCSS.ConLogoMobile, AppCss.Center, AppCss.isFlex)}>
             <Icon icon='logo-twitter' color='rgb(29, 161, 242)'className={`${HeaderCSS.Logo}`} fontSize='30px'/>
           </div>
+          
         </div>
+        <SideMenu showHide={this.state.sideBar}>
+          <Search/>
+        </SideMenu>
       </div>
+     
     </div>
     );
   }

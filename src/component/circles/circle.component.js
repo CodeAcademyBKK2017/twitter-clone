@@ -21,7 +21,7 @@ circle.propTypes = {
 };
 
 circle.defaultProps = {
-  children: {}
+  children: null
 };
 
 export default circle;

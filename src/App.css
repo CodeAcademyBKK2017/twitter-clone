@@ -34,12 +34,12 @@
 }
 
 .container{
-  background-color: lightgrey;
+  background-color: #e6ecf0;
   padding: 80px 15% 20px 15%;
 }
 
 .BoxContain{
-  background-color: lightgrey;
+  background-color: #e6ecf0;
 }
 
 .menubar{
@@ -67,7 +67,7 @@
 
 @media screen and (max-width:700px){
   .container{
-    background-color: lightgrey;
+    background-color: #e6ecf0;
     padding: 80px 10px 20px 10px;
   }
 }
