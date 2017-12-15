@@ -5,9 +5,9 @@ const react = require('react');
  * https://github.com/facebook/react/issues/9102#issuecomment-283873039
  */
 global.window = global;
-window.document = {
-  getElementById: () => 'someElement'
-};
+// window.document = {
+//   getElementById: () => 'someElement'
+// };
 window.addEventListener = () => {};
 window.requestAnimationFrame = () => {
 

@@ -1,0 +1,35 @@
+.tab {
+    display: flex;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.tab .tabItem {
+    flex: 1;
+    border-bottom: 5px solid transparent;
+    padding: 20px 0;
+}
+
+.tab .tabItem:hover {
+    border-bottom-color: #cbccce;
+}
+
+.tab .tabItem.active {
+    border-bottom-color: #80A8CC;
+}
+
+.tab .tabItem h3 {
+    padding: 0;
+    margin: 0 0 4px 0;
+    font-weight: 100;
+    font-size: 14px;
+    color: #c8c3b3;
+}
+
+.tab .tabItem p {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 19px;
+    color: #66645e;
+}

@@ -1,6 +1,7 @@
 import AppStyles from './App.css';
 import React, {Component} from 'react';
 import Header from './components/Header/Header.component';
+import Tab from './components/Tab/Tab.component';
 
 class App extends Component {
 
@@ -10,7 +11,7 @@ class App extends Component {
       <div>
         <Header />
         <div className={AppStyles.container}>
-          <div className={`${AppStyles.menu} ${AppStyles.panel}`} />
+          <Tab />
           <div className={`${AppStyles.content} ${AppStyles.panel}`} />
         </div>
       </div>
