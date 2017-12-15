@@ -62,6 +62,16 @@ class Header extends Component {
           </div>
           <div className={headerStyle.right_head} />
         </div>
+        <div className={classNames(headerStyle.menuBar)}>
+          <div className={classNames(headerStyle.right_head_text, headerStyle.searchTextBox)}>
+            <input type="text"/>
+            <Icon icon="ios-search-outline"/>
+          </div>
+
+          <div className={classNames(headerStyle.bottomText)}>
+              Chaowalit Kongkham
+          </div>
+        </div>
       </div>
     );
   }

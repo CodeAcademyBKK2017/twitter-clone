@@ -66,6 +66,9 @@
 .header_mobile {
     display: none;
 }
+.menuBar {
+    display: none;
+}
 
 @media only screen and (max-width: 768px) {
     .header {
@@ -78,5 +81,33 @@
         height: 60px;
         top: 0;
         display: flex;
+    }
+
+    .menuBar{
+        /* display: inline-flex; */
+        display: block;
+        bottom: 0;
+        top: 60px;
+        position: fixed;
+        width: 80vw;
+        background-color: #F2F2F2;
+        padding: 5px 5px 5px 5px;
+    }
+    .searchTextBox{
+        /* display: inline-flex; */
+        width: 100%;
+    }
+    .right_head_text > input{
+        /* display: inline-flex; */
+        width: 100%;
+    }
+    .bottomText{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 10px;
+        border-top: 2px solid #ccc;
     }
 }
