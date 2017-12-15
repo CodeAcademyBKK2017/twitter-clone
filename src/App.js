@@ -1,6 +1,7 @@
 import AppCss from './App.css';
 import React, {Component} from 'react';
 import Header from './component/headers/header.component';
+import Menu from './component/menus/menu.component';
 
 class App extends Component {
   render () {
@@ -9,7 +10,12 @@ class App extends Component {
         <Header />
         <div className={AppCss.container}>
           <div className={`${AppCss.BoxContain}`} >
-            <div className={`${AppCss.menubar}  ${AppCss.shadowStyle}`} />
+            <div className={`${AppCss.menubar}  ${AppCss.shadowStyle} ${AppCss.isFlex}`} >
+              <Menu text='TWEETS' num='200'/>
+              <Menu text='PHOTOS/VIDEOS' num='200'/>
+              <Menu text='FOLLOWINGS' num='200'/>
+              <Menu text='FOLLOWERS' num='1M'/>
+            </div>
             <div className={`${AppCss.TwitterBody} ${AppCss.shadowStyle}`} /> 
           </div>
         </div>

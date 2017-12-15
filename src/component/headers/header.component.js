@@ -28,7 +28,7 @@ class Header extends Component {
         <div className={className(HeaderCSS.rightContain, AppCss.isFlex)}>
           <Search/>
           <Circle>
-            <img className={className(HeaderCSS.logoBtn, HeaderCSS.userIcon)} src='https://scontent-iad3-1.xx.fbcdn.net/v/t39.1997-6/s110x80/13601946_1176746099014660_1320250140_n.png?_nc_ad=z-m&_nc_cid=0&oh=2a7109b26b5725dd0ef7741df62012c4&oe=5AC2F560'/>
+            <img className={className(HeaderCSS.logoBtn, HeaderCSS.userIcon)} src='https://scontent.fbkk1-1.fna.fbcdn.net/v/t1.0-9/23172488_10210127392877297_6031642395833861761_n.jpg?_nc_fx=fbkk1-6&oh=b791e2f9e6f9e660e7660714d1ffa3bc&oe=5AD73CDB'/>
           </Circle>
         </div>
       </div>
