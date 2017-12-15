@@ -11,7 +11,7 @@ exports[`Cell: Snapshot test 1`] = `
     >
       <svg
         className="sc-bdVaJa fUuvxv"
-        fill="#000000"
+        fill="darkgray"
         height="22px"
         onClick={undefined}
         rotate={0}

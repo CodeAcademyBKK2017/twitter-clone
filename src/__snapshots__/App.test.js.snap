@@ -12,7 +12,7 @@ exports[`App component App: renders correctly 1`] = `
       >
         <svg
           className="sc-bdVaJa fUuvxv"
-          fill="#000000"
+          fill="darkgray"
           height="22px"
           onClick={undefined}
           rotate={0}
