@@ -163,6 +163,7 @@ exports[`App component App: renders correctly 1`] = `
     >
       <div
         className={undefined}
+        onClick={[Function]}
       >
         <svg
           className="sc-bdVaJa fUuvxv"
@@ -198,7 +199,7 @@ exports[`App component App: renders correctly 1`] = `
         </svg>
       </div>
       <div
-        className={undefined}
+        className="undefined undefined"
       >
         <div
           className={undefined}

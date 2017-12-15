@@ -160,6 +160,7 @@ exports[`Header group Test Header: snapshot test 1`] = `
   >
     <div
       className={undefined}
+      onClick={[Function]}
     >
       <svg
         className="sc-bdVaJa fUuvxv"
@@ -195,7 +196,7 @@ exports[`Header group Test Header: snapshot test 1`] = `
       </svg>
     </div>
     <div
-      className={undefined}
+      className="undefined undefined"
     >
       <div
         className={undefined}
