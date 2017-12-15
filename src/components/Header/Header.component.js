@@ -11,7 +11,7 @@ class Header extends Component {
       <div className={classNames(headerStyle.header)}>
         <div className={classNames(headerStyle.left)}>
           <div className={classNames(headerStyle.circleContainer, headerStyle.circleContainer__first, headerStyle.circleContainer__borderRight)}>
-            <Circle iconName="ion-social-twitter-outline" type="brand" />
+            <Circle iconName="logo-twitter" type="brand" />
           </div>
           <div className={classNames(headerStyle.circleContainer)}>
             <Circle iconName="ios-notifications-outline" />

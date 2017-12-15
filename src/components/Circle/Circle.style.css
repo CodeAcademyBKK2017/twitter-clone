@@ -6,8 +6,12 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    border: 1px solid #f8f4ee;
-    color: lightgray;
+    border: 1px solid lightgray;
+    color: darkgray;
+}
+.normal * {
+    color: darkgray;
+    fill: darkgray;
 }
 .brand {
     width: 35px;
@@ -17,6 +21,10 @@
     justify-content: center;
     align-items: center;
     background-color: #81a9cb;
-    border: 1px solid #f8f4ee;
+    border: 1px solid lightgray;
     color: white;
+}
+.brand * {
+    color: white;
+    fill: white;
 }

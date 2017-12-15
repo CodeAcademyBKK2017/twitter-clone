@@ -8,7 +8,7 @@ class Search extends Component {
     return (
       <div className={classNames(searchStyle.form)}>
         <input type="text" className={classNames(searchStyle.form__input)} />
-        <Ionicon name="search" icon="ion-search" className={classNames(searchStyle.form__icon)} fontSize="35px" />
+        <Ionicon name="search" icon="ios-search-outline" className={classNames(searchStyle.form__icon)} fontSize="22px" />
       </div>
     );
   }

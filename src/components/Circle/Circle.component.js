@@ -10,7 +10,7 @@ class Circle extends Component {
     const styleType = (type, circleStyle) => type === 'brand' ? circleStyle.brand : circleStyle.normal;
     return (
       <div className={classNames(styleType(type, circleStyle))}>
-        <Ionicon icon={iconName} fontSize="35px" />
+        <Ionicon icon={iconName} fontSize="22px" />
       </div>
     );
   }
