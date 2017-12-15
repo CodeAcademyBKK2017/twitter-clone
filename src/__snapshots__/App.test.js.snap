@@ -175,10 +175,62 @@ exports[`App component App: renders correctly 1`] = `
     <div
       className=""
     >
-      <div />
-      <div />
-      <div />
-      <div />
+      <div
+        className={undefined}
+      >
+        <span
+          className={undefined}
+        >
+          TWEETS
+        </span>
+        <span
+          className={undefined}
+        >
+          200
+        </span>
+      </div>
+      <div
+        className={undefined}
+      >
+        <span
+          className={undefined}
+        >
+          PHOTOS/VIDEOS
+        </span>
+        <span
+          className={undefined}
+        >
+          200
+        </span>
+      </div>
+      <div
+        className={undefined}
+      >
+        <span
+          className={undefined}
+        >
+          FOLLOWINGS
+        </span>
+        <span
+          className={undefined}
+        >
+          200
+        </span>
+      </div>
+      <div
+        className={undefined}
+      >
+        <span
+          className={undefined}
+        >
+          FOLLOWERS
+        </span>
+        <span
+          className={undefined}
+        >
+          1M
+        </span>
+      </div>
     </div>
     <div
       className=""
