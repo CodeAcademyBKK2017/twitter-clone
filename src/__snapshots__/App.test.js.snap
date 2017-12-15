@@ -123,6 +123,7 @@ exports[`App component App: renders correctly 1`] = `
       >
         <input
           className=""
+          placeholder="Search"
           type="text"
         />
         <svg

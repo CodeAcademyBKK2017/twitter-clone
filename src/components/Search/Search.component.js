@@ -7,7 +7,7 @@ class Search extends Component {
   render () {
     return (
       <div className={classNames(searchStyle.form)}>
-        <input type="text" className={classNames(searchStyle.form__input)} />
+        <input type="text" placeholder="Search" className={classNames(searchStyle.form__input)} />
         <Ionicon name="search" icon="ios-search-outline" className={classNames(searchStyle.form__icon)} fontSize="22px" />
       </div>
     );

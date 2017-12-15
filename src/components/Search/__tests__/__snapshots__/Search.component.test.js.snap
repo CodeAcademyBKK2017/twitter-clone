@@ -6,6 +6,7 @@ exports[`Cell: Snapshot test 1`] = `
 >
   <input
     className=""
+    placeholder="Search"
     type="text"
   />
   <svg
