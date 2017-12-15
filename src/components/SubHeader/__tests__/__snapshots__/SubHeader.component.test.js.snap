@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubHeader group Test SubHeader: snapshot test 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className="undefined undefined"
+  >
+    <div
+      className={undefined}
+    >
+       TWEETS
+    </div>
+    <div
+      className={undefined}
+    >
+       200 
+    </div>
+  </div>
+  <div
+    className="undefined undefined"
+  >
+    <div
+      className={undefined}
+    >
+       PHOTOS/VIDEOS
+    </div>
+    <div
+      className={undefined}
+    >
+       200 
+    </div>
+  </div>
+  <div
+    className="undefined undefined"
+  >
+    <div
+      className={undefined}
+    >
+       FOLLOWING
+    </div>
+    <div
+      className={undefined}
+    >
+       200 
+    </div>
+  </div>
+  <div
+    className="undefined undefined"
+  >
+    <div
+      className={undefined}
+    >
+       FOLLOWERS
+    </div>
+    <div
+      className={undefined}
+    >
+       1M 
+    </div>
+  </div>
+</div>
+`;
