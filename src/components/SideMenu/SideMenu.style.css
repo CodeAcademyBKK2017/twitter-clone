@@ -17,6 +17,7 @@
 
 .hidden {
 	left: -80vw;
+	opacity: 0;
 }
 
 .searchBarContainer {
