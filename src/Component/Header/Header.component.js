@@ -7,19 +7,28 @@ import Icon from 'react-ionicons';
 import className from 'classname';
 
 class Header extends Component {
+  state={
+    menuVisibility: false
+  }
+  MenuToggle = () => {
+    this.setState({menuVisibility: !this.state.menuVisibility});
+  }
   render () {
     return (
       <div className={className(inputStyles.header, inputStyles.shadow)}>
-        <div className={className(inputStyles.sidemenu)}>
-          <div className={inputStyles.borderStyle}>
-            <input className={inputStyles.inputStyle} placeholder="Search"/>
-            <Icon className={inputStyles.colorStyle} icon='ios-search'/>
-          </div>
-          <div className={inputStyles.Name}>
+        { 
+          this.state.menuVisibility ?
+            <div className={className(inputStyles.sidemenu)}>
+              <div className={inputStyles.borderStyle}>
+                <input className={inputStyles.inputStyle} placeholder="Search"/>
+                <Icon className={inputStyles.colorStyle} icon='ios-search'/>
+              </div>
+              <div className={inputStyles.Name}>
             Rung
-          </div>
-        </div>
-        <div className={className(inputStyles.flex3)}>
+              </div>
+            </div> : null
+        }
+        <div className={className(inputStyles.flex3)} onClick={this.MenuToggle}>
           <Icon icon="ios-menu"/>
         </div>
         <div className={className(inputStyles.flex4, inputStyles.contentLeft)}>

@@ -49,14 +49,7 @@
     align-items: center;
 }
 .sidemenu{
-    width: 80%;
-    background: #fff;
-    position: absolute;
-    height: calc(100vh - 100%);
-    z-index: 5;
-    left: 0;
-    top: 101%;
-    box-shadow: 0px 5px 3px 2px #eee;
+    display: none;
 }
 .contentRight{
     display: flex;
@@ -66,12 +59,12 @@
 
 .borderStyle{
     display: flex;
-    border-radius: 50px;
+    border-radius: 20px;
     justify-content: center;
     align-items: center;
     border: 1px solid rgb(240, 240, 240);
     padding: 5px 10px 5px;
-    margin-top: 10px
+    margin: 10px
 }
 
 .inputStyle{
@@ -86,12 +79,13 @@
 
 .Name{
     border-radius: 5px;
-    justify-content: center;
-    align-items: center;
     border: 1px solid rgb(240, 240, 240);
     padding: 5px 10px 5px;
-    position: fixed;
+    position: absolute;
     bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
 }
 @media (max-width:767px){
     .flex4{
@@ -99,5 +93,17 @@
     }
     .flex3{
         display: flex;
+    }
+    .sidemenu{
+        display: block;
+        width: 80%;
+        background: #fff;
+        position: absolute;
+        height: calc(100vh - 100%);
+        z-index: 5;
+        left: 0;
+        top: 101%;
+        box-shadow: 0px 5px 3px 2px #eee;
+        transition: 0.5s;
     }
 }
