@@ -18,7 +18,9 @@ class Header extends Component {
           </div>
           <div className={headerStyles.logo}> <Icon icon='logo-twitter' fonSize='35px' color="#00aced"  /></div>
           <div className={headerStyles.rightContent}>
-            <Search/>
+            <div className={headerStyles.smallSearch}>
+              <Search/>
+            </div>
             <Circle type="normalRL"><img src="http://icons.iconarchive.com/icons/designbolts/despicable-me-2/32/Minion-Amazed-icon.png"/></Circle>
           </div>
         </div>
@@ -28,6 +30,9 @@ class Header extends Component {
           </div>
           <div className={headerStyles.mobileLogo}>
             <Icon icon='logo-twitter' fonSize="50px" color="#00aced" />
+          </div>
+          <div className={headerStyles.sidePanel}>
+            <div className={headerStyles.bigSearch} ><Search/> </div>
           </div>
         </div>
       </div>

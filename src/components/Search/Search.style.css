@@ -5,6 +5,7 @@
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+    width:90%;
 }
 .input:focus{
     background-color: green;
@@ -15,7 +16,7 @@
     align-items: center;
     border: 2px solid rgba(0,0,0,0.08); 
     height: 35px;
-    width: 20vw;
+    width: 100%;
     border-radius: 50px;
 }
 .searchIcon{
