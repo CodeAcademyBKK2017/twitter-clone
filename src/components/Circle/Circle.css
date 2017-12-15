@@ -9,7 +9,7 @@
     margin-left: 10px;
 }
 .circle:hover {
-    background-color: red;
+    background-color: gray;
 }
 
 /* active: change to grey */
