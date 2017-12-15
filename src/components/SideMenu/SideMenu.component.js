@@ -11,7 +11,7 @@ class SideMenu extends Component {
 				</div>
 				
 				<div className={SideMenuStyle.creditContainer}>
-					Made by: Chong
+					<b>Made by: Chong</b>
 				</div>
 			</div>
 		);
