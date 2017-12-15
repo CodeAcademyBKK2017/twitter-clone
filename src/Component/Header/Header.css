@@ -62,16 +62,9 @@
     overflow-x: hidden;
     padding-top: 60px;
 }
-.sidemenu{
-    width: 80%;
-    background: #fff;
-    position: absolute;
-    height: calc(100vh - 100%);
-    z-index: 5;
-    left: 0;
-    top: 101%;
-    box-shadow: 1px 1px #d8d4d0 ;
- }
+.sidemenu {
+    display: none;
+}
 
  
 
@@ -122,6 +115,17 @@
         left: 0px;
         right: 0px;
     }
+    .sidemenu{
+        display: block;
+        width: 80%;
+        background: #fff;
+        position: absolute;
+        height: calc(100vh - 100%);
+        z-index: 5;
+        left: 0;
+        top: 101%;
+        box-shadow: 1px 1px #d8d4d0 ;
+     }
     
    
 }
