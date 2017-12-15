@@ -2,11 +2,9 @@
 
 exports[`App component App: renders correctly 1`] = `
 <div
-  className="App"
+  className={undefined}
 >
-  <div
-    className=""
-  >
+  <div>
     <div
       className=""
     >
@@ -16,59 +14,12 @@ exports[`App component App: renders correctly 1`] = `
         <div
           className=""
         >
-          <svg
-            className="sc-bdVaJa fUuvxv"
-            fill="white"
-            height="22px"
-            onClick={undefined}
-            rotate={0}
-            style={Object {}}
-            viewBox="0 0 1024 1024"
-            width="22px"
-          >
-            <path
-              d="M984 219c-34.8 15.4-72 25.8-111.2 30.6 40-24 70.8-62 85.2-107.2-37.4 22.2-78.8 38.4-123 47-35.4-37.8-85.8-61.4-141.4-61.4-107 0-193.6 86.8-193.6 193.8 0 15.2 1.6 30 5 44.2-161-8-303.8-85.2-399.2-202.6-16.6 28.6-26.2 62-26.2 97.4 0 67.2 34.4 126.6 86.4 161.4-32-0.8-62-9.6-88-24.2 0 0.8 0 1.6 0 2.4 0 94 66.8 172.2 155.4 190-16.2 4.4-33.4 6.8-51 6.8-12.4 0-24.6-1.2-36.4-3.6 24.6 77 96.2 133 181 134.6-66.2 52-149.8 83-240.6 83-15.6 0-31-1-46.2-2.8 85.4 55.6 187.2 87.6 296.4 87.6 356.6 0 551.4-295.4 551.4-551.6 0-8.4-0.2-16.8-0.6-25 37.8-27.4 70.6-61.4 96.6-100.4z"
-            />
-          </svg>
-        </div>
-      </div>
-      <div
-        className=""
-      >
-        <div
-          className=""
-        >
-          <svg
-            className="sc-bdVaJa fUuvxv"
-            fill="white"
-            height="22px"
-            onClick={undefined}
-            rotate={0}
-            style={Object {}}
-            viewBox="0 0 1024 1024"
-            width="22px"
-          >
-            <path
-              d="M128 768h768v-85.332h-768v85.332zM128 554.668h768v-85.334h-768v85.334zM128 256v85.33h768v-85.33h-768z"
-            />
-          </svg>
-        </div>
-      </div>
-      <div
-        className={undefined}
-      />
-      <div
-        className={undefined}
-      >
-        <div
-          className={undefined}
-        >
           <div
             className=""
           >
             <svg
               className="sc-bdVaJa fUuvxv"
-              fill="#5f5f5f"
+              fill="white"
               height="22px"
               onClick={undefined}
               rotate={0}
@@ -77,109 +28,142 @@ exports[`App component App: renders correctly 1`] = `
               width="22px"
             >
               <path
-                d="M415.6 800c0 52 43.2 95.8 96.2 95.8s96.2-43.8 96.2-95.8h-192.4z M747.8 458.4c0-198-98-265.6-189.8-281 0-1.2 0.2-2.2 0.2-3.4 0-25.4-20.6-46-46-46s-46 20.6-46 46c0 1.2 0 2.4 0.2 3.6-91.8 15.6-189.8 83.8-189.8 281.4-0.4 231-45.4 245-116.6 309h704c-70.8-64-116.2-78.2-116.2-309.6z"
+                d="M984 219c-34.8 15.4-72 25.8-111.2 30.6 40-24 70.8-62 85.2-107.2-37.4 22.2-78.8 38.4-123 47-35.4-37.8-85.8-61.4-141.4-61.4-107 0-193.6 86.8-193.6 193.8 0 15.2 1.6 30 5 44.2-161-8-303.8-85.2-399.2-202.6-16.6 28.6-26.2 62-26.2 97.4 0 67.2 34.4 126.6 86.4 161.4-32-0.8-62-9.6-88-24.2 0 0.8 0 1.6 0 2.4 0 94 66.8 172.2 155.4 190-16.2 4.4-33.4 6.8-51 6.8-12.4 0-24.6-1.2-36.4-3.6 24.6 77 96.2 133 181 134.6-66.2 52-149.8 83-240.6 83-15.6 0-31-1-46.2-2.8 85.4 55.6 187.2 87.6 296.4 87.6 356.6 0 551.4-295.4 551.4-551.6 0-8.4-0.2-16.8-0.6-25 37.8-27.4 70.6-61.4 96.6-100.4z"
               />
             </svg>
           </div>
         </div>
         <div
-          className={undefined}
+          onClick={[Function]}
         >
           <div
             className=""
           >
-            <svg
-              className="sc-bdVaJa fUuvxv"
-              fill="#5f5f5f"
-              height="22px"
-              onClick={undefined}
-              rotate={0}
-              style={Object {}}
-              viewBox="0 0 1024 1024"
-              width="22px"
+            <div
+              className=""
             >
-              <path
-                d="M896 768v-484.4l-262.2 199.6 136.2 154.8-4 4-157.8-139.2-96.2 73.2-96.2-73.2-157.8 139.2-4-4 136-154.8-262-199.2v484z M879.4 256h-735.4l368 279.8z"
-              />
-            </svg>
+              <svg
+                className="sc-bdVaJa fUuvxv"
+                fill="white"
+                height="22px"
+                onClick={undefined}
+                rotate={0}
+                style={Object {}}
+                viewBox="0 0 1024 1024"
+                width="22px"
+              >
+                <path
+                  d="M128 768h768v-85.332h-768v85.332zM128 554.668h768v-85.334h-768v85.334zM128 256v85.33h768v-85.33h-768z"
+                />
+              </svg>
+            </div>
           </div>
         </div>
         <div
           className={undefined}
-        >
-          <div
-            className=""
-          >
-            <svg
-              className="sc-bdVaJa fUuvxv"
-              fill="#5f5f5f"
-              height="22px"
-              onClick={undefined}
-              rotate={0}
-              style={Object {}}
-              viewBox="0 0 1024 1024"
-              width="22px"
-            >
-              <path
-                d="M896 384v-32h-224v-224h-32v224h-256v-224h-32v224h-224v32h224v256h-224v32h224v224h32v-224h256v224h32v-224h224v-32h-224v-256h224zM640 640h-256v-256h256v256z"
-              />
-            </svg>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      className={undefined}
-    >
-      <svg
-        className="sc-bdVaJa fUuvxv"
-        fill="#1e90ff"
-        height="35px"
-        onClick={undefined}
-        rotate={0}
-        style={Object {}}
-        viewBox="0 0 1024 1024"
-        width="35px"
-      >
-        <path
-          d="M984 219c-34.8 15.4-72 25.8-111.2 30.6 40-24 70.8-62 85.2-107.2-37.4 22.2-78.8 38.4-123 47-35.4-37.8-85.8-61.4-141.4-61.4-107 0-193.6 86.8-193.6 193.8 0 15.2 1.6 30 5 44.2-161-8-303.8-85.2-399.2-202.6-16.6 28.6-26.2 62-26.2 97.4 0 67.2 34.4 126.6 86.4 161.4-32-0.8-62-9.6-88-24.2 0 0.8 0 1.6 0 2.4 0 94 66.8 172.2 155.4 190-16.2 4.4-33.4 6.8-51 6.8-12.4 0-24.6-1.2-36.4-3.6 24.6 77 96.2 133 181 134.6-66.2 52-149.8 83-240.6 83-15.6 0-31-1-46.2-2.8 85.4 55.6 187.2 87.6 296.4 87.6 356.6 0 551.4-295.4 551.4-551.6 0-8.4-0.2-16.8-0.6-25 37.8-27.4 70.6-61.4 96.6-100.4z"
         />
-      </svg>
-    </div>
-    <div
-      className=""
-    >
+        <div
+          className={undefined}
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className=""
+            >
+              <svg
+                className="sc-bdVaJa fUuvxv"
+                fill="#5f5f5f"
+                height="22px"
+                onClick={undefined}
+                rotate={0}
+                style={Object {}}
+                viewBox="0 0 1024 1024"
+                width="22px"
+              >
+                <path
+                  d="M415.6 800c0 52 43.2 95.8 96.2 95.8s96.2-43.8 96.2-95.8h-192.4z M747.8 458.4c0-198-98-265.6-189.8-281 0-1.2 0.2-2.2 0.2-3.4 0-25.4-20.6-46-46-46s-46 20.6-46 46c0 1.2 0 2.4 0.2 3.6-91.8 15.6-189.8 83.8-189.8 281.4-0.4 231-45.4 245-116.6 309h704c-70.8-64-116.2-78.2-116.2-309.6z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className={undefined}
+          >
+            <div
+              className=""
+            >
+              <svg
+                className="sc-bdVaJa fUuvxv"
+                fill="#5f5f5f"
+                height="22px"
+                onClick={undefined}
+                rotate={0}
+                style={Object {}}
+                viewBox="0 0 1024 1024"
+                width="22px"
+              >
+                <path
+                  d="M896 768v-484.4l-262.2 199.6 136.2 154.8-4 4-157.8-139.2-96.2 73.2-96.2-73.2-157.8 139.2-4-4 136-154.8-262-199.2v484z M879.4 256h-735.4l368 279.8z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className={undefined}
+          >
+            <div
+              className=""
+            >
+              <svg
+                className="sc-bdVaJa fUuvxv"
+                fill="#5f5f5f"
+                height="22px"
+                onClick={undefined}
+                rotate={0}
+                style={Object {}}
+                viewBox="0 0 1024 1024"
+                width="22px"
+              >
+                <path
+                  d="M896 384v-32h-224v-224h-32v224h-256v-224h-32v224h-224v32h224v256h-224v32h224v224h32v-224h256v224h32v-224h224v-32h-224v-256h224zM640 640h-256v-256h256v256z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
       <div
         className={undefined}
       >
-        <input
-          className={undefined}
-          placeholder="Search"
-        />
         <svg
           className="sc-bdVaJa fUuvxv"
-          fill="#000000"
-          height="22px"
+          fill="#1e90ff"
+          height="35px"
           onClick={undefined}
           rotate={0}
           style={Object {}}
           viewBox="0 0 1024 1024"
-          width="22px"
+          width="35px"
         >
           <path
-            d="M689 596c30-47.2 47.6-103.2 47.6-163.4 0-168.2-136.2-304.6-304.2-304.6-168.2 0-304.4 136.4-304.4 304.6s136.2 304.6 304.2 304.6c61 0 117.8-18 165.4-48.8l13.8-9.6 217.2 217.2 67.4-68.6-217-217.2 10-14.2zM602.8 262.4c45.4 45.4 70.4 105.8 70.4 170s-25 124.6-70.4 170c-45.4 45.4-105.8 70.4-170 70.4s-124.6-25-170-70.4c-45.4-45.4-70.4-105.8-70.4-170s25-124.6 70.4-170c45.4-45.4 105.8-70.4 170-70.4s124.6 25 170 70.4z"
+            d="M984 219c-34.8 15.4-72 25.8-111.2 30.6 40-24 70.8-62 85.2-107.2-37.4 22.2-78.8 38.4-123 47-35.4-37.8-85.8-61.4-141.4-61.4-107 0-193.6 86.8-193.6 193.8 0 15.2 1.6 30 5 44.2-161-8-303.8-85.2-399.2-202.6-16.6 28.6-26.2 62-26.2 97.4 0 67.2 34.4 126.6 86.4 161.4-32-0.8-62-9.6-88-24.2 0 0.8 0 1.6 0 2.4 0 94 66.8 172.2 155.4 190-16.2 4.4-33.4 6.8-51 6.8-12.4 0-24.6-1.2-36.4-3.6 24.6 77 96.2 133 181 134.6-66.2 52-149.8 83-240.6 83-15.6 0-31-1-46.2-2.8 85.4 55.6 187.2 87.6 296.4 87.6 356.6 0 551.4-295.4 551.4-551.6 0-8.4-0.2-16.8-0.6-25 37.8-27.4 70.6-61.4 96.6-100.4z"
           />
         </svg>
       </div>
       <div
-        className={undefined}
+        className=""
       >
         <div
-          className=""
+          className={undefined}
         >
+          <input
+            className={undefined}
+            placeholder="Search"
+          />
           <svg
             className="sc-bdVaJa fUuvxv"
-            fill="red"
+            fill="#000000"
             height="22px"
             onClick={undefined}
             rotate={0}
@@ -188,82 +172,145 @@ exports[`App component App: renders correctly 1`] = `
             width="22px"
           >
             <path
-              d="M512 896l-60.328-54.422c-214.236-196.694-355.672-324.358-355.672-483.388 0-129.748 99.836-230.19 228.8-230.19 72.798 0 141.434 33.484 187.2 87.894 45.764-54.41 114.398-87.894 187.2-87.894 128.964 0 228.8 100.442 228.8 230.19 0 159.032-141.438 286.696-355.672 483.388l-60.328 54.422z"
+              d="M689 596c30-47.2 47.6-103.2 47.6-163.4 0-168.2-136.2-304.6-304.2-304.6-168.2 0-304.4 136.4-304.4 304.6s136.2 304.6 304.2 304.6c61 0 117.8-18 165.4-48.8l13.8-9.6 217.2 217.2 67.4-68.6-217-217.2 10-14.2zM602.8 262.4c45.4 45.4 70.4 105.8 70.4 170s-25 124.6-70.4 170c-45.4 45.4-105.8 70.4-170 70.4s-124.6-25-170-70.4c-45.4-45.4-70.4-105.8-70.4-170s25-124.6 70.4-170c45.4-45.4 105.8-70.4 170-70.4s124.6 25 170 70.4z"
             />
           </svg>
         </div>
+        <div
+          className={undefined}
+        >
+          <div
+            className=""
+          >
+            <svg
+              className="sc-bdVaJa fUuvxv"
+              fill="red"
+              height="22px"
+              onClick={undefined}
+              rotate={0}
+              style={Object {}}
+              viewBox="0 0 1024 1024"
+              width="22px"
+            >
+              <path
+                d="M512 896l-60.328-54.422c-214.236-196.694-355.672-324.358-355.672-483.388 0-129.748 99.836-230.19 228.8-230.19 72.798 0 141.434 33.484 187.2 87.894 45.764-54.41 114.398-87.894 187.2-87.894 128.964 0 228.8 100.442 228.8 230.19 0 159.032-141.438 286.696-355.672 483.388l-60.328 54.422z"
+              />
+            </svg>
+          </div>
+        </div>
       </div>
+      <div
+        className=""
+      />
     </div>
     <div
-      className=""
-    />
-  </div>
-  <div
-    className={undefined}
-  >
-    <div
-      className=""
+      className="hide"
     >
       <div
-        className={undefined}
+        className=""
       >
-        <span
+        <div
           className={undefined}
         >
-          TWEETS
-        </span>
-        <span
-          className={undefined}
+          <input
+            className={undefined}
+            placeholder="Search"
+          />
+          <svg
+            className="sc-bdVaJa fUuvxv"
+            fill="#000000"
+            height="45px"
+            onClick={undefined}
+            rotate={0}
+            style={Object {}}
+            viewBox="0 0 1024 1024"
+            width="45px"
+          >
+            <path
+              d="M689 596c30-47.2 47.6-103.2 47.6-163.4 0-168.2-136.2-304.6-304.2-304.6-168.2 0-304.4 136.4-304.4 304.6s136.2 304.6 304.2 304.6c61 0 117.8-18 165.4-48.8l13.8-9.6 217.2 217.2 67.4-68.6-217-217.2 10-14.2zM602.8 262.4c45.4 45.4 70.4 105.8 70.4 170s-25 124.6-70.4 170c-45.4 45.4-105.8 70.4-170 70.4s-124.6-25-170-70.4c-45.4-45.4-70.4-105.8-70.4-170s25-124.6 70.4-170c45.4-45.4 105.8-70.4 170-70.4s124.6 25 170 70.4z"
+            />
+          </svg>
+        </div>
+        <div
+          className=""
         >
-          200
-        </span>
-      </div>
-      <div
-        className={undefined}
-      >
-        <span
-          className={undefined}
-        >
-          PHOTOS/VIDEOS
-        </span>
-        <span
-          className={undefined}
-        >
-          200
-        </span>
-      </div>
-      <div
-        className={undefined}
-      >
-        <span
-          className={undefined}
-        >
-          FOLLOWINGS
-        </span>
-        <span
-          className={undefined}
-        >
-          200
-        </span>
-      </div>
-      <div
-        className={undefined}
-      >
-        <span
-          className={undefined}
-        >
-          FOLLOWERS
-        </span>
-        <span
-          className={undefined}
-        >
-          1M
-        </span>
+          <span
+            className={undefined}
+          >
+            n u b r a b r a
+          </span>
+        </div>
       </div>
     </div>
+  </div>
+  <div>
     <div
-      className=""
-    />
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className={undefined}
+        >
+          <span
+            className={undefined}
+          >
+            TWEETS
+          </span>
+          <span
+            className={undefined}
+          >
+            200
+          </span>
+        </div>
+        <div
+          className={undefined}
+        >
+          <span
+            className={undefined}
+          >
+            PHOTOS/VIDEOS
+          </span>
+          <span
+            className={undefined}
+          >
+            200
+          </span>
+        </div>
+        <div
+          className={undefined}
+        >
+          <span
+            className={undefined}
+          >
+            FOLLOWINGS
+          </span>
+          <span
+            className={undefined}
+          >
+            200
+          </span>
+        </div>
+        <div
+          className={undefined}
+        >
+          <span
+            className={undefined}
+          >
+            FOLLOWERS
+          </span>
+          <span
+            className={undefined}
+          >
+            1M
+          </span>
+        </div>
+      </div>
+      <div
+        className=""
+      />
+    </div>
   </div>
 </div>
 `;

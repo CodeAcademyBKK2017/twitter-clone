@@ -1,0 +1,45 @@
+.tabSlide{
+    position: fixed;
+    top: 60px;
+    width: 80vw;
+    height: calc(100vh - 60px);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px 10px;
+}
+
+.borderStyle{
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(240, 240, 240);
+    padding: 5px 10px 5px;
+}
+
+.inputStyle{
+    width: 100vh;
+    height: 25px;
+    border: 0px solid white;
+}
+
+.SlideBottomStyle{
+    position: absolute;
+    bottom: 20px;
+    padding: 10px;
+    left: 0;
+    right: 0;
+}
+
+.nameStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorStyle{
+    color: rgb(200, 200, 200);
+}
+
+.shadowTop{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
+}
