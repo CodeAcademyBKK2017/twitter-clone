@@ -49,3 +49,13 @@
     height: 1000px;
     margin-top: 20px;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .box_main {
+        width: 100vw;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+}
