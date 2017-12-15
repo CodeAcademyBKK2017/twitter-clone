@@ -33,6 +33,7 @@ class Header extends Component {
           </div>
           <div className={headerStyles.sidePanel}>
             <div className={headerStyles.bigSearch} ><Search/> </div>
+            <div className={headerStyles.madeBy} > Made By : Ben</div>
           </div>
         </div>
       </div>

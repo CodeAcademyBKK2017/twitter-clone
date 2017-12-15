@@ -75,10 +75,10 @@
 .sidePanel{
 display: flex;
 justify-content: center;
-background-color: grey;
-height: 800px;
+background-color: #e6ecf0;
+height: calc(100vh - 100%);
 width: 80vw;
-position: fixed;
+position: absolute;
 left:0;
 top:60px;
 }
@@ -93,4 +93,13 @@ top:60px;
 }
 .sidemenu:active{
 
+}
+.madeBy{
+display: flex;
+justify-content: center;
+    width: 100%;
+    position:absolute;
+    bottom:0;
+    padding: 10px;
+    border-top: 1px solid grey;
 }
