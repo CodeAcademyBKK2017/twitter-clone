@@ -1,13 +1,14 @@
 .form {
-    display: inline-flex;
+    display: flex;
     padding: 5px;
     border: 1px solid lightgray;
     border-radius: 10px;
+    background-color: white;
 }
 .form__input {
     border: none;
     color: darkgray;
-    width: 20vw;
+    width: 100%;
 }
 .form__icon {
     border: none;

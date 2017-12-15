@@ -17,6 +17,9 @@ class Header extends Component {
             <center><Ionicon icon="logo-twitter" fontSize="35px" color="#81a9cb" /></center>
           </div>
         </div>
+        <div className={classNames(headerStyle.sideMenu__panel)}>
+          <Search />
+        </div>
         <div className={classNames(headerStyle.header)}>
           <div className={classNames(headerStyle.left)}>
             <div className={classNames(headerStyle.circleContainer, headerStyle.circleContainer__first, headerStyle.circleContainer__borderRight)}>
