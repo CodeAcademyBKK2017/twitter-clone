@@ -28,6 +28,15 @@
     align-items: center;
 }
 
+.flex3{
+    display: none;
+    flex: 0;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+    border-right: 1px solid #e3e3e3;
+}
+
 .divide{
     height: 60px;
     width: 1px;
@@ -44,4 +53,12 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+@media (max-width:767px){
+    .flex4{
+        display: none;
+    }
+    .flex3{
+        display: flex;
+    }
 }
