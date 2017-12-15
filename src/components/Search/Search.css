@@ -20,3 +20,9 @@
   .search .fa {
     color: #f2eee8;
   }
+
+  @media (max-width: 768px) {
+    .search {
+      border: 1px solid white;
+    }
+  }

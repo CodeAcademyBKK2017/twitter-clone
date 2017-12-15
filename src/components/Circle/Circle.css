@@ -9,6 +9,7 @@
     border-radius: 50%;
     border: 1px solid #f4f0ea;
     box-sizing: border-box;
+    transition: all .5s;
 }
 .circle.circleOpaque {
     color: #FFFFFF;

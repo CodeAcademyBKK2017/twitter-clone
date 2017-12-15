@@ -5,6 +5,7 @@
   height: 60px;
   display: flex;
   align-items: center;
+  z-index: 200;
 }
 
 .headerMobile {
@@ -61,6 +62,46 @@ ul.nav li:hover {
 .menuButton {
   display: inline-flex;
   margin-left: 10px;
+}
+
+.sideMenu {
+  position: fixed;
+  top: 60px;
+  left: -100%;
+  bottom: 0px;
+  width: 80%;
+  background: #f2eee8;
+  z-index: 100;
+
+  transition: all 0.5s;
+}
+
+.sideMenu.sideMenuShow {
+  left: 0;
+}
+
+.sideMenu .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.sideMenu .container .sideHeader {
+  padding: 7px;
+}
+.sideMenu .container .sideFooter {
+  border-top: 1px solid #dddbd5;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 7px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #c7c3b5;
+}
+.sideMenu .container .sideContent {
+  flex: 1;
 }
 
 @media (max-width: 768px) {

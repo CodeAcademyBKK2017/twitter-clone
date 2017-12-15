@@ -6,10 +6,11 @@ import PropTypes from 'prop-types';
 class Circle extends Component {
 
   render () {
-    const {iconName, opaque, children} = this.props;
+    const {imageSrc, iconName, opaque} = this.props;
+    const isIcon = !!iconName;
     const iconColor = opaque ? 'white' : '#605e58';
-    const element = children || <Icon icon={iconName} color={iconColor} fontSize="20px"/>;
-    
+    const element = isIcon ? <Icon icon={iconName} color={iconColor} fontSize="20px"/> : <div style={{backgroundImage: imageSrc, width: '24px', height: '24px'}} />;
+    // console.log('asdfasfd', imageSrc);
     return (
       <div className={`${CircleStyles.circle} ${opaque ? CircleStyles.circleOpaque : ''}`}>
         {element}
@@ -20,13 +21,12 @@ class Circle extends Component {
 
 Circle.propTypes = {
   iconName: PropTypes.string,
-  children: PropTypes.node,
+  imageSrc: PropTypes.string,
   opaque: PropTypes.bool
 };
 
 Circle.defaultTypes = {
   opaque: false,
-  children: [],
   iconName: ''
 };
 

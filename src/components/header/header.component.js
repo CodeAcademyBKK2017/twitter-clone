@@ -7,6 +7,16 @@ import Icon from 'react-ionicons';
 
 class Header extends Component {
 
+  state = {
+    menuOpened: false
+  }
+
+  toggleMenu = () => {
+    this.setState({
+      menuOpened: !this.state.menuOpened,
+    });
+  }
+
   render () {
     return (
       <div>
@@ -27,14 +37,15 @@ class Header extends Component {
           <div className={HeaderStyles.rightContainer}>
             <Search />
             <div className={HeaderStyles.profile}>
-              <Circle><img src="http://icons.iconarchive.com/icons/designbolts/despicable-me-2/128/Minion-Dancing-icon.png" width="24" height="24" /></Circle>
+              <Circle imageSrc="http://icons.iconar chive.com/icons/designbolts/despicable-me-2/128/Minion-Dancing-icon.png" />
+              {/* <Circle iconName="logo-twitter" /> */}
             </div>
           </div>
         </div>
 
         <div className={`${HeaderStyles.headerMobile} ${AppStyles.panel}`}>
           <div className={HeaderStyles.leftContainer}>
-            <a className={HeaderStyles.menuButton}>
+            <a className={HeaderStyles.menuButton} onClick={this.toggleMenu}>
               <Icon icon="ios-menu" fontSize="40" color="#66645e" />
             </a>
           </div>
@@ -42,6 +53,13 @@ class Header extends Component {
             <Icon icon="logo-twitter" fontSize="35px" color="#80A8CC" />
           </div>
           <div className={HeaderStyles.rightContainer} />
+        </div>
+        <div className={`${HeaderStyles.sideMenu} ${AppStyles.panel} ${this.state.menuOpened ? HeaderStyles.sideMenuShow : ''}`}>
+          <div className={HeaderStyles.container}>  
+            <div className={HeaderStyles.sideHeader}><Search /></div>
+            <div className={HeaderStyles.sideContent} />
+            <div className={HeaderStyles.sideFooter}>Made by: Jack</div>
+          </div>
         </div>
       </div>
     );
