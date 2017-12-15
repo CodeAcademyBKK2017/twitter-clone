@@ -4,6 +4,7 @@ import CircleStyle from '../Circle/Circle.style.css';
 import React, {Component} from 'react';
 import Circle from '../Circle/Circle.component';
 import SearchBar from '../SearchBar/SearchBar.component';
+import SideMenu from '../SideMenu/SideMenu.component';
 import Icon from 'react-ionicons';
 
 class Header extends Component {
@@ -53,6 +54,8 @@ class Header extends Component {
 					</div>
 
 					<div className={HeaderStyle.rightContent} />
+
+					<SideMenu/>
 				</div>
 			</div>
 		);
