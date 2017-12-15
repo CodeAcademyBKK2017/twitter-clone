@@ -13,6 +13,10 @@
 	align-items: stretch;
 }
 
+.hidden {
+	display: none;
+}
+
 .searchBarContainer {
 	padding: 10px;
 }

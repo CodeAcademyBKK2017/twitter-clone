@@ -8,6 +8,17 @@ import SideMenu from '../SideMenu/SideMenu.component';
 import Icon from 'react-ionicons';
 
 class Header extends Component {
+
+	state = {
+		isHideSideMenu: true
+	};
+
+	onMenuButtonClick = () => {
+		const newState = {...this.state};
+		newState.isHideSideMenu = !this.state.isHideSideMenu;
+		this.setState(newState);
+	}
+
 	render () {
 		return (
 			<div className={`${LandingPageStyle.box} ${HeaderStyle.twitterHeader}`}>
@@ -45,7 +56,7 @@ class Header extends Component {
 				<div className={HeaderStyle.mobileContainer}>
 					<div className={HeaderStyle.leftContent}>
 						<div className={HeaderStyle.brandContainer}>
-							<Circle iconName="ios-menu"/>
+							<Circle iconName="ios-menu" onButtonClick={this.onMenuButtonClick}/>
 						</div>
 					</div>
 
@@ -55,7 +66,7 @@ class Header extends Component {
 
 					<div className={HeaderStyle.rightContent} />
 
-					<SideMenu/>
+					<SideMenu isHidden={this.state.isHideSideMenu}/>
 				</div>
 			</div>
 		);
