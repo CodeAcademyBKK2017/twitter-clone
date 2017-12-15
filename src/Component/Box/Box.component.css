@@ -9,7 +9,9 @@
     display: flex;
     
 }
-
+body{
+    background-color: #f2eee9;
+}
 .BoxContent.Shadow{
 height: 1000px;
 margin-top: 20px;
@@ -57,4 +59,5 @@ div.circle:active{
     .BoxTitle.Shadow{
         flex-wrap: wrap;
     }
+    
 }

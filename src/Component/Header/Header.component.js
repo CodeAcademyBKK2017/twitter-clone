@@ -10,7 +10,13 @@ class Header extends Component {
   render () {
     return (
       <div className={className(inputStyles.header, inputStyles.shadow)}>
-          
+        <div className={className(inputStyles.sidemenu)}>
+          <div className={inputStyles.borderStyle}>
+            <input className={inputStyles.inputStyle} placeholder="Search"/>
+            <Icon className={inputStyles.colorStyle} icon='ios-search'/>
+          </div>
+          <div className={inputStyles.name}>Nanny</div>
+        </div>
         <div className={className(inputStyles.show)}>
           <Icon icon="ios-menu"/>
         </div>
@@ -32,7 +38,9 @@ class Header extends Component {
           <InputBorder />
           <CircleNoneBG color='red' iconName={'md-heart'}/>
         </div>
+        
       </div>
+
     );
   }
 }
