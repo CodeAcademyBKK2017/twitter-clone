@@ -8,8 +8,12 @@
 	padding: 10px;
 	width: 50%;
 	height: 10px;
-	/* flex: 0.5; */
-	/* box-sizing: border-box; */
+}
+
+.searchBarInSideMenu {
+	border: solid 1px white;
+	
+	width: 100%;	
 }
 
 .searchBox {

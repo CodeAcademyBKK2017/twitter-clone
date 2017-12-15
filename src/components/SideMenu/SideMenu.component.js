@@ -1,16 +1,17 @@
 import SideMenuStyle from './SideMenu.style.css';
 import React, {Component} from 'react';
-// import SearchBar from '../SearchBar/SearchBar.component';
+import SearchBar from '../SearchBar/SearchBar.component';
 
 class SideMenu extends Component {
 	render () {
 		return (
 			<div className={SideMenuStyle.container}>
-				<div>
-					asdf
+				<div className={SideMenuStyle.searchBarContainer}>
+					<SearchBar isInSideMenu={true}/>
 				</div>
-				<div>
-					asdf
+				
+				<div className={SideMenuStyle.creditContainer}>
+					Made by: Chong
 				</div>
 			</div>
 		);

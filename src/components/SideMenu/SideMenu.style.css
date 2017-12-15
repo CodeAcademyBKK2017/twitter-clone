@@ -8,9 +8,27 @@
 	width: 80vw;
 	height: calc(100vh - 100%);
 
-	display: flex;
+	/* display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-between; */
+}
+
+.searchBarContainer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+
+	padding: 10px;
+}
+
+.creditContainer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+	padding: 10px;
 }
 
 @media all and (max-width: 768px) {
