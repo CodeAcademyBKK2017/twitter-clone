@@ -4,7 +4,15 @@ import Circle from '../Circle/Circle.component';
 import Icon from 'react-ionicons';
 import Search from '../Search/Search.component';
 class Header extends Component {
+  state = {
+    visible: false
+  }
+  toggle =() =>  {
+    this.setState({visible: !this.state.visible});
+  }
   render () {
+    // ternary operator
+    const sidePanel = this.state.visible ? headerStyles.sidePanel : `${headerStyles.sidePanel} ${headerStyles.hide}`;
     return (
       <div>
         <div className={headerStyles.appHeader} >
@@ -25,13 +33,13 @@ class Header extends Component {
           </div>
         </div>
         <div className={headerStyles.appHeaderMobile} >
-          <div className={headerStyles.sidemenu} >
+          <div className={headerStyles.sidemenu} onClick={this.toggle} >
             <Icon icon='ios-menu' fonSize="50px" color="#00aced" />
           </div>
           <div className={headerStyles.mobileLogo}>
             <Icon icon='logo-twitter' fonSize="50px" color="#00aced" />
           </div>
-          <div className={headerStyles.sidePanel}>
+          <div className={`${sidePanel}`}>
             <div className={headerStyles.bigSearch} ><Search/> </div>
             <div className={headerStyles.madeBy} > Made By : Ben</div>
           </div>
