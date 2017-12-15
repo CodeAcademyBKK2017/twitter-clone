@@ -88,11 +88,22 @@
 .sideMenu__panel {
     position: fixed;
     top: 60px;
+    bottom: 0;
     width: 80vw;
-    height: 100vh;
     background-color: whitesmoke;
     box-shadow: 2px 5px 8px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
     padding: 20px;
+}
+.sideMenu__name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: darkgray;
+    color: white;
+    font-size: 0.8em;
 }
 
 @media only screen and (max-width : 768px) {

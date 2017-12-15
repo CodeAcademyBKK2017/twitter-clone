@@ -71,6 +71,11 @@ exports[`App component App: renders correctly 1`] = `
           />
         </svg>
       </div>
+      <div
+        className=""
+      >
+        Teeraphong Chaichalermpreecha
+      </div>
     </div>
     <div
       className=""

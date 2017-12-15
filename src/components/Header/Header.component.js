@@ -19,6 +19,9 @@ class Header extends Component {
         </div>
         <div className={classNames(headerStyle.sideMenu__panel)}>
           <Search />
+          <div className={classNames(headerStyle.sideMenu__name)}>
+            Teeraphong Chaichalermpreecha
+          </div>
         </div>
         <div className={classNames(headerStyle.header)}>
           <div className={classNames(headerStyle.left)}>
