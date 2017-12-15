@@ -38,3 +38,34 @@
   .userIcon{
     width: 60%;
   }
+
+  .headerMobile{
+    display: none;
+  }
+
+  @media screen and (max-width:700px){
+    .headerMobile{
+      display: flex;
+      position: fixed;
+      width: 100%;
+      height: 60px;
+    }
+    .leftConLogoMobile{
+      height: 60px;
+      border-right: 1px solid lightgrey;
+      flex:1;
+      border-bottom: 0px solid transparent;
+    }
+    .ConLogoMobile{
+      flex:9;
+    }
+    .headerTwit {
+      display: none;
+    }
+    div.leftConLogoMobile:hover{
+      border-bottom: 1px solid rgb(29, 161, 242);
+    }
+    div.leftConLogoMobile:active{
+      background-color: lightgray;
+    }
+  }

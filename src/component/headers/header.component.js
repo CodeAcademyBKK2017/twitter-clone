@@ -8,7 +8,7 @@ import className from 'classname';
 
 class Header extends Component {
   render () {
-    return (
+    return (<div>
       <div className={className(HeaderCSS.headerTwit, AppCss.shadowStyle)} >
         <div className={className(HeaderCSS.leftContain, AppCss.isFlex)}>
           <div className={className(HeaderCSS.leftConLogo, AppCss.Center, AppCss.isFlex)}><Icon icon='logo-twitter' fontSize='10px' color='white' className={`${HeaderCSS.logoLeft}`} /></div>
@@ -24,7 +24,7 @@ class Header extends Component {
             </Circle>
           </div>
         </div>
-        <div className={className(HeaderCSS.ConLogo, AppCss.Center, AppCss.isFlex)}><Icon icon='logo-twitter' color='rgb(29, 161, 242)'className={`${HeaderCSS.Logo}`} size='2x'/></div>
+        <div className={className(HeaderCSS.ConLogo, AppCss.Center, AppCss.isFlex)}><Icon icon='logo-twitter' color='rgb(29, 161, 242)'className={`${HeaderCSS.Logo}`} fontSize='30px'/></div>
         <div className={className(HeaderCSS.rightContain, AppCss.isFlex)}>
           <Search/>
           <Circle>
@@ -32,6 +32,17 @@ class Header extends Component {
           </Circle>
         </div>
       </div>
+      <div className={className(HeaderCSS.headerMobile, AppCss.shadowStyle)}>
+        <div className={className(HeaderCSS.leftContain, AppCss.isFlex)}>
+          <div className={className(HeaderCSS.leftConLogoMobile, AppCss.Center, AppCss.isFlex)}>
+            <Icon icon='ios-menu' />
+          </div>
+          <div className={className(HeaderCSS.ConLogoMobile, AppCss.Center, AppCss.isFlex)}>
+            <Icon icon='logo-twitter' color='rgb(29, 161, 242)'className={`${HeaderCSS.Logo}`} fontSize='30px'/>
+          </div>
+        </div>
+      </div>
+    </div>
     );
   }
 }
