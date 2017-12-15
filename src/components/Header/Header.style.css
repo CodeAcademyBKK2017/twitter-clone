@@ -10,6 +10,34 @@
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
     display: flex;
 }
+.headerMobile {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 60px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
+}
+.headerMobile__menuIconContainer {
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: white;
+}
+.headerMobile__logoContainer {
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 100%;
+}
 .left {
     flex: 4;
     display: flex;
@@ -57,4 +85,13 @@
 }
 .circleContainer+.circleContainer {
     width: 45px;
+}
+
+@media only screen and (max-width : 768px) {
+    .header {
+        display: none;
+    }
+    .headerMobile {
+        display: block;
+    }
 }

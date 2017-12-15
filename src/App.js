@@ -7,7 +7,7 @@ import Stats from './components/Stats/Stats.component';
 class App extends Component {
   render () {
     return (
-      <div >
+      <div>
         <Header />
         <div className={classNames(appStyle.body)}>
           <div className={classNames(appStyle.stat)}><Stats /></div>
