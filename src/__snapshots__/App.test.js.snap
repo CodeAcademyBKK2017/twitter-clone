@@ -19,6 +19,7 @@ exports[`App component App: renders correctly 1`] = `
           >
             <div
               className="undefined undefined"
+              onClick={[Function]}
             >
               <svg
                 className="sc-bdVaJa fUuvxv"
@@ -44,6 +45,7 @@ exports[`App component App: renders correctly 1`] = `
           >
             <div
               className="undefined "
+              onClick={[Function]}
             >
               <svg
                 className="sc-bdVaJa fUuvxv"
@@ -62,6 +64,7 @@ exports[`App component App: renders correctly 1`] = `
             </div>
             <div
               className="undefined "
+              onClick={[Function]}
             >
               <svg
                 className="sc-bdVaJa fUuvxv"
@@ -80,6 +83,7 @@ exports[`App component App: renders correctly 1`] = `
             </div>
             <div
               className="undefined "
+              onClick={[Function]}
             >
               <svg
                 className="sc-bdVaJa fUuvxv"
@@ -98,6 +102,7 @@ exports[`App component App: renders correctly 1`] = `
             </div>
             <div
               className="undefined "
+              onClick={[Function]}
             >
               <svg
                 className="sc-bdVaJa fUuvxv"
@@ -138,7 +143,7 @@ exports[`App component App: renders correctly 1`] = `
           className={undefined}
         >
           <div
-            className={undefined}
+            className="undefined "
           >
             <input
               className={undefined}
@@ -165,6 +170,7 @@ exports[`App component App: renders correctly 1`] = `
           >
             <div
               className="undefined "
+              onClick={[Function]}
             >
               <svg
                 className="sc-bdVaJa fUuvxv"
@@ -200,6 +206,7 @@ exports[`App component App: renders correctly 1`] = `
           >
             <div
               className="undefined "
+              onClick={[Function]}
             >
               <svg
                 className="sc-bdVaJa fUuvxv"
@@ -239,6 +246,47 @@ exports[`App component App: renders correctly 1`] = `
         <div
           className={undefined}
         />
+        <div
+          className="undefined"
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className="undefined undefined"
+            >
+              <input
+                className={undefined}
+                placeholder="Search"
+                type="text"
+              />
+              <svg
+                className="sc-bdVaJa fUuvxv"
+                fill="#000000"
+                height="22px"
+                onClick={undefined}
+                rotate={0}
+                style={Object {}}
+                viewBox="0 0 1024 1024"
+                width="22px"
+              >
+                <path
+                  d="M689 596c30-47.2 47.6-103.2 47.6-163.4 0-168.2-136.2-304.6-304.2-304.6-168.2 0-304.4 136.4-304.4 304.6s136.2 304.6 304.2 304.6c61 0 117.8-18 165.4-48.8l13.8-9.6 217.2 217.2 67.4-68.6-217-217.2 10-14.2zM602.8 262.4c45.4 45.4 70.4 105.8 70.4 170s-25 124.6-70.4 170c-45.4 45.4-105.8 70.4-170 70.4s-124.6-25-170-70.4c-45.4-45.4-70.4-105.8-70.4-170s25-124.6 70.4-170c45.4-45.4 105.8-70.4 170-70.4s124.6 25 170 70.4z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className={undefined}
+          />
+          <div
+            className={undefined}
+          >
+            <b>
+              Made by: Chong
+            </b>
+          </div>
+        </div>
       </div>
     </div>
     <div
